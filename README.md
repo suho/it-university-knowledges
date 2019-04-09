@@ -1,2 +1,2 @@
 # it-university-knowledges
-I have an interview to check my university knowledges. So this repo will collect all knowledges from all lessons at my university.
+This repo will collect all knowledges I learned from my university.
