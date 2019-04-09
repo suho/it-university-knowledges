@@ -1,6 +1,7 @@
 # Service Oriented Technology
 
 - [What is Service Oriented Architecture](#what-is-service-oriented-architecture)
+- [Service Oriented Applications](#service-oriented-applications)
 - [Acknowledgement](#acknowledgement)
 
 ## What is Service Oriented Architecture
@@ -13,6 +14,12 @@ SOA aims to allow users to combine large chunks of functionality to form applica
 
 Users can also access these independent services without anyknowledge of their internal implementation.
 
+## Service Oriented Applications
+
+A service-oriented application is an application that is composed largely of services, which are often in a hierarchy.
+
+![Image]
+
 ## Acknowledgement
 
 - [Service-Oriented Architecture Youtube][Youtube]
@@ -20,3 +27,4 @@ Users can also access these independent services without anyknowledge of their i
 
 [Youtube]: https://www.youtube.com/watch?v=_dFJOSR-aFs
 [Wikipedia]: https://en.wikipedia.org/wiki/Service-oriented_architecture
+[Image]: ../img/sot.soa.gif
