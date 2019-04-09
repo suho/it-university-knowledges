@@ -24,9 +24,9 @@ A service-oriented application is an application that is composed largely of ser
 
 ## Acknowledgement
 
-- [Service-Oriented Architecture Youtube][Youtube]
-- [Wikipedia][Wikipedia]
+- [Service Oriented Architecture - Wiki][Wikipedia]
+- [Service Oriented Architecture - IBM][IMB]
 
-[Youtube]: https://www.youtube.com/watch?v=_dFJOSR-aFs
 [Wikipedia]: https://en.wikipedia.org/wiki/Service-oriented_architecture
+[IMB]: https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html
 [Image]: ../img/sot.soa.gif
