@@ -18,7 +18,9 @@ Users can also access these independent services without anyknowledge of their i
 
 A service-oriented application is an application that is composed largely of services, which are often in a hierarchy.
 
-![Image]
+<p align="center">
+    <img src='../img/sot.soa.gif'>
+</p>
 
 ## Acknowledgement
 
