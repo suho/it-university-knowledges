@@ -93,4 +93,4 @@ This repo will collect all knowledges I learned from my university.
 [Open Source Software Development]: #
 [Software Testing]: #
 [IT Project Management]: #
-[Service Oriented Technology]: #
+[Service Oriented Technology]: ./doc/service-oriented-technology.md
