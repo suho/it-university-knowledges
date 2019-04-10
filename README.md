@@ -91,6 +91,6 @@ This repo will collect all knowledges I learned from my university.
 [JAVA Programming]: #
 [Web Technology]: #
 [Open Source Software Development]: #
-[Software Testing]: #
+[Software Testing]: ./doc/software-testing.md
 [IT Project Management]: ./doc/it-project-management.md
 [Service Oriented Technology]: ./doc/service-oriented-technology.md
