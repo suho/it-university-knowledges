@@ -109,15 +109,17 @@ Concerned with the transmission and reception of the unstructured raw bit stream
 - **Central Device**:
   - Hub
 
-- **Protocols**: _Not Available_
+- **Protocols**: 
+  - 100BASE-T
+  - 1000BASE-T
+  - 802.11
 
 #### Data Link Layer
 
 Provides error-free transfer of data frames from one node to another over the Physical layer
 
 - **Application**: 
-  - **Frames** ("envelopes", contains MAC address)
-    [NIC card ---- Switch ---- NIC card] (end to end)
+  - **Frames** ("envelopes", contains MAC address)<br>[NIC card ---- Switch ---- NIC card] (end to end)
 
 - **Example**:
   - Establishes & terminates the logical link between nodes
@@ -135,6 +137,9 @@ Provides error-free transfer of data frames from one node to another over the Ph
 
 - **Protocols**: 
   - PPP/SLIP
+  - Ethernet
+  - Token Ring
+  - ISDN
 
 #### Network Layer
 
@@ -169,7 +174,7 @@ Ensures that messages are delivered error-free, in sequence, and with no looses 
   - Message traffic control
   - Session multiplexing
 
-- **Central Device**: _Not Available_
+- **Central Device**: _None_
 
 - **Protocols**: 
   - TCP/SPX/UDP
@@ -182,15 +187,68 @@ Allow session astablishment between processes running on different stations
   - **Synch & Send to Ports** (logical ports)
 
 - **Example**:
-  - Message segmentation
-  - Message acknowledgement
-  - Message traffic control
-  - Session multiplexing
+  - Session establishment
+  - Maintenance and termination
+  - Session Support
+  - Perform Security
+  - Name Recognition
+  - Logging
 
-- **Central Device**: _Not Available_
+- **Central Device**:
+  - Logical Ports
 
 - **Protocols**: 
-  - TCP/SPX/UDP
+  - RPC/SQL/NFS/NetBIOS
+  - SSH
+
+#### Presentation Layer
+
+Formats the data to be presented to the Application layer. It can be viewed as the "Translator" for the network
+
+- **Application**: 
+  - **Syntax layer** encrypt and decrypt (if needed)
+
+- **Example**:
+  - Character code translation
+  - Data conversion
+  - Data compression
+  - Data encryption
+  - Character Set Translation
+
+- **Central Device**: _None_
+
+- **Protocols**: 
+  - JPEG/ASCII/EBDIC/TIFF/GIF/PICT
+  - SMB, NCP
+
+#### Application Layer
+
+Serves as the window for users and application processes to access the network services
+
+<details><summary>See more</summary>
+<p>
+
+- **Application**: 
+  - **End User Layer** Program that opens what was sent or creates what is to be sent
+
+- **Example**:
+  - Resource sharing
+  - Remote file access
+  - Remote printer access
+  - Directory services
+  - Network management
+
+- **Central Device**: 
+  - User Application
+
+- **Protocols**: 
+  - SMTP
+  - HTTP, FTP, NSF, Telnet, SSH, ECHO,...
+
+</p>
+</details>
+
+
 
 ## Server/Client Model
 
