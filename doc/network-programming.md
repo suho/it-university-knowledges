@@ -96,6 +96,9 @@ To work, the application needs an operating environment and the most important e
 
 Concerned with the transmission and reception of the unstructured raw bit stream over the physical medium.
 
+<details><summary>See more</summary>
+<p>
+
 - **Application**: 
   - **Physical structure** Cables, Hubs, ect.
 
@@ -114,9 +117,15 @@ Concerned with the transmission and reception of the unstructured raw bit stream
   - 1000BASE-T
   - 802.11
 
+</p>
+</details>
+
 #### Data Link Layer
 
 Provides error-free transfer of data frames from one node to another over the Physical layer
+
+<details><summary>See more</summary>
+<p>
 
 - **Application**: 
   - **Frames** ("envelopes", contains MAC address)<br>[NIC card ---- Switch ---- NIC card] (end to end)
@@ -141,9 +150,15 @@ Provides error-free transfer of data frames from one node to another over the Ph
   - Token Ring
   - ISDN
 
+</p>
+</details>
+
 #### Network Layer
 
 Controls the operations of the subnet, deciding which physical path the data takes.
+
+<details><summary>See more</summary>
+<p>
 
 - **Application**: 
   - **Packets** ("letter", contains IP address)
@@ -161,9 +176,15 @@ Controls the operations of the subnet, deciding which physical path the data tak
 - **Protocols**: 
   - IP/IPX/ICMP
 
+</p>
+</details>
+
 #### Transport Layer
 
 Ensures that messages are delivered error-free, in sequence, and with no looses or duplications.
+
+<details><summary>See more</summary>
+<p>
 
 - **Application**: 
   - **TCP** Host to Host, Flow Control
@@ -179,9 +200,15 @@ Ensures that messages are delivered error-free, in sequence, and with no looses 
 - **Protocols**: 
   - TCP/SPX/UDP
 
+</p>
+</details>
+
 #### Session Layer
 
 Allow session astablishment between processes running on different stations
+
+<details><summary>See more</summary>
+<p>
 
 - **Application**: 
   - **Synch & Send to Ports** (logical ports)
@@ -201,9 +228,16 @@ Allow session astablishment between processes running on different stations
   - RPC/SQL/NFS/NetBIOS
   - SSH
 
+
+</p>
+</details>
+
 #### Presentation Layer
 
 Formats the data to be presented to the Application layer. It can be viewed as the "Translator" for the network
+
+<details><summary>See more</summary>
+<p>
 
 - **Application**: 
   - **Syntax layer** encrypt and decrypt (if needed)
@@ -220,6 +254,9 @@ Formats the data to be presented to the Application layer. It can be viewed as t
 - **Protocols**: 
   - JPEG/ASCII/EBDIC/TIFF/GIF/PICT
   - SMB, NCP
+
+</p>
+</details>
 
 #### Application Layer
 
@@ -247,8 +284,6 @@ Serves as the window for users and application processes to access the network s
 
 </p>
 </details>
-
-
 
 ## Server/Client Model
 
