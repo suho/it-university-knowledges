@@ -90,7 +90,7 @@ This repo will collect all knowledges I learned from my university.
 [Mobile Technology]: #
 [JAVA Programming]: #
 [Web Technology]: #
-[Open Source Software Development]: #
+[Open Source Software Development]: ./doc/open-source-software-development.md
 [Software Testing]: ./doc/software-testing.md
 [IT Project Management]: ./doc/it-project-management.md
 [Service Oriented Technology]: ./doc/service-oriented-technology.md
