@@ -109,6 +109,8 @@ Concerned with the transmission and reception of the unstructured raw bit stream
 - **Central Device**:
   - Hub
 
+- **Protocols**: _Not Available_
+
 #### Data Link Layer
 
 Provides error-free transfer of data frames from one node to another over the Physical layer
@@ -133,6 +135,62 @@ Provides error-free transfer of data frames from one node to another over the Ph
 
 - **Protocols**: 
   - PPP/SLIP
+
+#### Network Layer
+
+Controls the operations of the subnet, deciding which physical path the data takes.
+
+- **Application**: 
+  - **Packets** ("letter", contains IP address)
+
+- **Example**:
+  - Routing
+  - Subnet traffic control
+  - Frame fragmentation
+  - Logical-physical addess mapping
+  - Subnet usage accounting
+
+- **Central Device**:
+  - Routers
+
+- **Protocols**: 
+  - IP/IPX/ICMP
+
+#### Transport Layer
+
+Ensures that messages are delivered error-free, in sequence, and with no looses or duplications.
+
+- **Application**: 
+  - **TCP** Host to Host, Flow Control
+
+- **Example**:
+  - Message segmentation
+  - Message acknowledgement
+  - Message traffic control
+  - Session multiplexing
+
+- **Central Device**: _Not Available_
+
+- **Protocols**: 
+  - TCP/SPX/UDP
+
+#### Session Layer
+
+Allow session astablishment between processes running on different stations
+
+- **Application**: 
+  - **Synch & Send to Ports** (logical ports)
+
+- **Example**:
+  - Message segmentation
+  - Message acknowledgement
+  - Message traffic control
+  - Session multiplexing
+
+- **Central Device**: _Not Available_
+
+- **Protocols**: 
+  - TCP/SPX/UDP
 
 ## Server/Client Model
 
