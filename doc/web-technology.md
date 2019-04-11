@@ -68,5 +68,5 @@ Client-Server is a software architecture model consisting of two parts, client s
 
 - [Web Technology - DUT](#)
 
-[Internet Network Model]: ../img/wt.inm.png
+[Internet Network Model]: ../img/wt.inm.png
 [Client and Server]: ../img/wt.cns.png
