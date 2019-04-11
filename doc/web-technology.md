@@ -28,7 +28,7 @@ A Network is a collection of computers, servers, mainframes, network devices, pe
 The Internet (interconnected network) is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the world wide web (www), electronic email, telephony, and file sharing.
 
 <p align="center">
-    <img src='../img/wt.inm.png'>
+    <img src='../img/wt.inm.png'>
 </p>
 
 ### TCP/IP
@@ -57,7 +57,7 @@ Client-Server is a software architecture model consisting of two parts, client s
 - The Server process always waits for requests from any client.
 
 <p align="center">
-    <img src='../img/wt.cns.png'>
+    <img src='../img/wt.cns.png'>
 </p>
 
 ## HTML, CSS and JavaScript
