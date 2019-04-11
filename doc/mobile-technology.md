@@ -78,7 +78,7 @@ Some of the important framework:
 ## Android Architecture
 
 <p align="center">
-    <img src="../img/mt.android.arch.png" width="50%"/>
+    <img src="../img/mt.android.arch.png"/>
 </p>
 
 [iOS Architecture]: ../img/mt.ios.arch.png
