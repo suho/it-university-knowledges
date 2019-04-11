@@ -1,5 +1,5 @@
 # it-university-knowledges
-This repo will collect all knowledges I learned from my university.
+This repo will collect base concepts knowledges I learned from my university.
 
 ## Semester 1
 
@@ -87,7 +87,7 @@ This repo will collect all knowledges I learned from my university.
 [Information System Analytics and Design]: #
 [Microcontroller]: #
 [Network Programming]: #
-[Mobile Technology]: #
+[Mobile Technology]: ./doc/mobile-technology.md
 [JAVA Programming]: ./doc/java-programming.md
 [Web Technology]: ./doc/web-technology.md
 [Open Source Software Development]: ./doc/open-source-software-development.md
