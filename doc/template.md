@@ -1,5 +1,0 @@
-# Title
-
-- [Section](#section)
-
-## Section
