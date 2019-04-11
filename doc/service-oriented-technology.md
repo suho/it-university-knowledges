@@ -2,7 +2,6 @@
 
 - [What is Service Oriented Architecture](#what-is-service-oriented-architecture)
 - [Service Oriented Applications](#service-oriented-applications)
-- [Acknowledgement](#acknowledgement)
 
 ## What is Service Oriented Architecture
 
@@ -22,11 +21,4 @@ A service-oriented application is an application that is composed largely of ser
     <img src='../img/sot.soa.gif'>
 </p>
 
-## Acknowledgement
-
-- [Service Oriented Architecture - Wiki][Wikipedia]
-- [Service Oriented Architecture - IBM][IMB]
-
-[Wikipedia]: https://en.wikipedia.org/wiki/Service-oriented_architecture
-[IMB]: https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html
 [Image]: ../img/sot.soa.gif

@@ -26,7 +26,6 @@
 - [Dynamic Web](#dynamic-web)
   - [What is Dynamic Web Page?](#what-is-dynamic-web-page)
   - [Types of Dynamic Web Page](#types-of-dynamic-web-page)
-- [Acknowledgement](#acknowledgement)
 
 ## Internet and Web
 
@@ -188,10 +187,6 @@ A dynamic web page is a web page that displays different content each time it’
 
 - A client-side dynamic web page processes the web page using HTML scripting running in the browser as it loads. JavaScript and other scripting languages determine the way the HTML in the received page is parsed into the Document Object Model (DOM) that represents the loaded web page. The same client-side techniques can then dynamically update or change the DOM in the same way.
 - A server-side dynamic web page is a web page whose construction is controlled by an application server processing server-side scripts. In server-side scripting, parameters determine how the assembly of every new web page proceeds, including the setting upon more client-side processing.
-
-## Acknowledgement
-
-- [Web Technology - DUT](#)
 
 [Internet Network Model]: ../img/wt.inm.png
 [Client and Server]: ../img/wt.cns.png

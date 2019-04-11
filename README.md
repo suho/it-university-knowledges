@@ -88,7 +88,7 @@ This repo will collect all knowledges I learned from my university.
 [Microcontroller]: #
 [Network Programming]: #
 [Mobile Technology]: #
-[JAVA Programming]: #
+[JAVA Programming]: ./doc/java-programming.md
 [Web Technology]: ./doc/web-technology.md
 [Open Source Software Development]: ./doc/open-source-software-development.md
 [Software Testing]: ./doc/software-testing.md

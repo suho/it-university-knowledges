@@ -11,7 +11,6 @@
 - [Levels of Testing](#levels-of-testing)
   - [Functional Testing](#functional-testing)
   - [Non-Functional Testing](#non-functional-testing)
-- [Acknowledgement](#acknowledgement)
 
 ## What is Testing?
 
@@ -72,7 +71,3 @@ Non-functional testing of Software involves testing the Software from the requir
 - Usability Testing
 - Security Testing
 - Portability Testing
-
-## Acknowledgement
-
-- [moodle.nccu.edu.tw](http://moodle.nccu.edu.tw)

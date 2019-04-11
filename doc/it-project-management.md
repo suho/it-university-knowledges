@@ -8,7 +8,6 @@
   - [Software Development Cycle](#software-development-cycle)
 - [IT Project Management](#it-project-management)
   - [What is IT Project Management?](#what-is-it-project-management)
-- [Acknowledgement](#acknowledgement)
 
 ## Software Project Management (SPM)
 
@@ -49,7 +48,3 @@ For scheduling a project, it is necessary to:
 ### What is IT Project Management?
 
 IT project management is the process of managing the plan, organization, and accountability to achieve information technology goals.
-
-## Acknowledgement
-
-- [smartsheet](https://www.smartsheet.com/)
