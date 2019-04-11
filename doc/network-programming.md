@@ -92,6 +92,37 @@ To work, the application needs an operating environment and the most important e
     <img src="../img/np.osi.model.png" width="50%" />
 </p>
 
+#### Physical Layer
+
+Concerned with the transmission and reception of the unstructured raw bit stream over the physical medium.
+
+**Application**: **Physical structure** Cables, Hubs, ect.
+
+**Example**:
+- Data Encoding
+- Physical medium attachment
+- Tranmission technique
+- Baseband or Broadband
+- Physical medium transmission Bits & Volts
+
+#### Data Link Layer
+
+Provides error-free transfer of data frames from one node to another over the Physical layer
+
+**Application**: **Frames** ("envelopes", contains MAC address)
+[NIC card ---- Switch ---- NIC card] (end to end)
+
+**Example**:
+- Establishes & terminates the logical link between nodes
+- Frame traffic control
+- Frame squencing
+- Frame acknowledgment
+- Frame delimiting
+- Frame error checking
+- Media access control
+
+
+
 ## Server/Client Model
 
 ## Programming with TCP
