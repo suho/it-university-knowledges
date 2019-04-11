@@ -7,6 +7,7 @@
   - [Operating System](#operating-system)
   - [Protocols](#protocols)
 - [Models of Network](#models-of-network)
+  - [OSI Model](#osi-model)
 - [Server/Client Model](#serverclient-model)
 - [Programming with TCP](#programming-with-tcp)
 - [Programming with UDP](#programming-with-udp)
@@ -85,6 +86,12 @@ To work, the application needs an operating environment and the most important e
 
 ## Models of Network
 
+### OSI Model
+
+<p align="center">
+    <img src="../img/np.osi.model.png" width="50%" />
+</p>
+
 ## Server/Client Model
 
 ## Programming with TCP
@@ -97,3 +104,4 @@ To work, the application needs an operating environment and the most important e
 
 [Network Topology]: ../img/np.network.topology.png
 [TCP/IP Suite]: ../img/np.tcpip.suite.gif
+[OSI Model]: ../img/np.osi.model.png
