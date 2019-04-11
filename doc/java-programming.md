@@ -30,7 +30,7 @@ Java is guaranteed to be **Write Once**, **Run Anywhere**
 
 **Secure** - With Java’s secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public key encryption.
 
-**Multithreaded **- With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.
+**Multithreaded** - With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.
 
 **High Performance** - With the use of Just-In-Time compilers, Java enables high performance.
 
