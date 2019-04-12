@@ -289,7 +289,7 @@ Serves as the window for users and application processes to access the network s
 ### TCP/IP Model
 
 <p align="center">
-    <img src="../img/np.tcpip.model.png" />
+    <img src="../img/np.tcpip.model.png" width="50%" />
 </p>
 
 ## Server/Client Model
