@@ -9,7 +9,12 @@
 - [Models of Network](#models-of-network)
   - [OSI Model](#osi-model)
   - [TCP/IP Model](#tcpip-model)
+  - [Internet Layer](#internet-layer)
+  - [Network Interface Layer / Link Layer](#network-interface-layer--link-layer)
 - [Server/Client Model](#serverclient-model)
+  - [Client](#client)
+  - [Server](#server)
+  - [Activity](#activity)
 - [Programming with TCP](#programming-with-tcp)
 - [Programming with UDP](#programming-with-udp)
 - [Programming with Multi-Thread](#programming-with-multi-thread)
@@ -292,7 +297,45 @@ Serves as the window for users and application processes to access the network s
     <img src="../img/np.tcpip.model.png" width="50%" />
 </p>
 
+#### Application Layer
+
+The **application layer** is the scope within which applications, or processes, create user data and communicate this data to other applications on another or the same host.
+
+#### Transport Layer
+
+The **transport layer** performs host-to-host commnunications on either the same or different hosts and on either the local network or remote networks separated by routers.
+
+It provides a channel for the communitation needs of applications. UDP is the basic transport layer protocol, providing an unreliable datagram service.
+
+### Internet Layer
+
+The **internet layer** exchanges datagrams across network boundaries. It provides a uniform networking interface that hides the actual topology of the underlying network connections.
+
+### Network Interface Layer / Link Layer
+
+The layer defines the networking methods within the scope of the local netowrk link on which hosts communicate without intervening routers. This layer includes the protocols used to describe the local network topology and the interfaces needed to affect transmission of Internet layer datagrams to next-neighbor hosts.
+
 ## Server/Client Model
+
+<p align="center">
+    <img src="../img/np.cns.png" width="50%" />
+</p>
+
+### Client
+
+- Create a connection to the server (speaks first)
+- Request a particular service from the server
+- With web, client is into the web browser
+
+### Server
+
+- Provide requested service for the client
+
+### Activity
+
+<p align="center">
+    <img src="../img/np.cns.activity.png" width="50%" />
+</p>
 
 ## Programming with TCP
 
@@ -306,3 +349,5 @@ Serves as the window for users and application processes to access the network s
 [TCP/IP Suite]: ../img/np.tcpip.suite.png
 [OSI Model]: ../img/np.osi.model.png
 [TCP/IP Model]: ../img/np.tcpip.model.png
+[Client And Server]: ../img/np.cns.png
+[CnS Activity]: ../img/np.cns.activity.png
