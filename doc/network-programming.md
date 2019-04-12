@@ -8,6 +8,7 @@
   - [Protocols](#protocols)
 - [Models of Network](#models-of-network)
   - [OSI Model](#osi-model)
+  - [TCP/IP Model](#tcpip-model)
 - [Server/Client Model](#serverclient-model)
 - [Programming with TCP](#programming-with-tcp)
 - [Programming with UDP](#programming-with-udp)
@@ -81,7 +82,7 @@ To work, the application needs an operating environment and the most important e
 - TCP/IP suite
 
 <p align="center">
-    <img src="../img/np.tcpip.suite.gif" />
+    <img src="../img/np.tcpip.suite.png" />
 </p>
 
 ## Models of Network
@@ -285,6 +286,12 @@ Serves as the window for users and application processes to access the network s
 </p>
 </details>
 
+### TCP/IP Model
+
+<p align="center">
+    <img src="../img/np.tcpip.model.png" />
+</p>
+
 ## Server/Client Model
 
 ## Programming with TCP
@@ -296,5 +303,6 @@ Serves as the window for users and application processes to access the network s
 ## Programming with Database
 
 [Network Topology]: ../img/np.network.topology.png
-[TCP/IP Suite]: ../img/np.tcpip.suite.gif
+[TCP/IP Suite]: ../img/np.tcpip.suite.png
 [OSI Model]: ../img/np.osi.model.png
+[TCP/IP Model]: ../img/np.tcpip.model.png
