@@ -15,6 +15,8 @@
   - [Client](#client)
   - [Server](#server)
   - [Activity](#activity)
+  - [Characteristic](#characteristic)
+  - [Protocol for Client/Server Model](#protocol-for-clientserver-model)
 - [Programming with TCP](#programming-with-tcp)
 - [Programming with UDP](#programming-with-udp)
 - [Programming with Multi-Thread](#programming-with-multi-thread)
@@ -336,6 +338,37 @@ The layer defines the networking methods within the scope of the local netowrk l
 <p align="center">
     <img src="../img/np.cns.activity.png" width="50%" />
 </p>
+
+### Characteristic
+
+- Encapsulation
+  - The server have all business logic
+  - The server can upgrade without affect to the client
+- Centralization
+  - Access resources with security
+- Scalability
+  - Can upgrade server or client anytime if needed
+- Flexibility
+  - New technology can easily intergrate to system
+- Interoperability
+  - All components (clients, network, servers) work together
+
+### Protocol for Client/Server Model
+
+A network protocol is a set of established rules that dictates how to format, transmit and receive data so computer network devices can communicate regardless of the differences in their underlying infrastructures, designs and standards.
+
+When create an application with Client/Server, you need to design an protocol.
+Some popular protocols: FTP, HTTP, etc.
+
+#### Types of Protocol
+
+- Synchronous protocol: 
+  - Communication between client and server in 2 directions but concurrent.
+  - Operate step by step
+  - Example: HTTP SMTP, POP3
+- Asunchronous protocol:
+  - Client and Server can send information at the same time
+  - Example: TELNET, RLOGIN
 
 ## Programming with TCP
 
