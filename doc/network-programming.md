@@ -17,10 +17,9 @@
   - [Activity](#activity)
   - [Characteristic](#characteristic)
   - [Protocol for Client/Server Model](#protocol-for-clientserver-model)
-- [Programming with TCP](#programming-with-tcp)
-- [Programming with UDP](#programming-with-udp)
-- [Programming with Multi-Thread](#programming-with-multi-thread)
-- [Programming with Database](#programming-with-database)
+- [TCP](#tcp)
+  - [Socket](#socket)
+- [UDP](#udp)
 
 ## Introduction
 
@@ -370,13 +369,29 @@ Some popular protocols: FTP, HTTP, etc.
   - Client and Server can send information at the same time
   - Example: TELNET, RLOGIN
 
-## Programming with TCP
+## TCP
 
-## Programming with UDP
+Transmission Control Protocol is a connection-oriented protocol, which means a connection is established and maintained until the application programs at each end have finished exchanging messages.
 
-## Programming with Multi-Thread
+TCP cover parts of Layer 4 and parts of Layer 5 in OSI.
 
-## Programming with Database
+> Some protocols is a connection-oriented: HTTP, FTP, Telnet
+
+### Socket
+
+A network socket is an internal endpoint for sending or receiving data within a node on a computer network.
+
+#### Types
+
+- Stream Sockets: Provides a connection-oriented, sequenced, and unique flow of data without record boundaries, with well-defined mechanisms for creating and destroying connections and for detecting errors. (TCP socket)
+- Datagram Sockets: Provides a connectionless point for sending or receiving data packets (UDP socket)
+- Raw Sockets: Allows direct sending and receiving of IP packets without any protocol-specific transport layer formatting.
+  
+## UDP
+
+UDP - User Datagram Protocol, with UDP, computer application can send messages, in this case referred to as **datagrams**.
+
+UPD uses a simple connectionless communication model.
 
 [Network Topology]: ../img/np.network.topology.png
 [TCP/IP Suite]: ../img/np.tcpip.suite.png
