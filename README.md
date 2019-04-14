@@ -85,7 +85,6 @@ This repo will collect base concepts knowledges I learned from my university.
 [Operating System Principle]: #
 [Software Engineering]: #
 [Information System Analytics and Design]: #
-[Microcontroller]: #
 [Network Programming]: ./doc/network-programming.md
 [Mobile Technology]: ./doc/mobile-technology.md
 [JAVA Programming]: ./doc/java-programming.md
