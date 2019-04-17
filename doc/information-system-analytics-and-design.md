@@ -7,6 +7,10 @@
   - [Concepts](#concepts-1)
   - [Classical Methods - Structure Oriented](#classical-methods---structure-oriented)
   - [Object Oriented Methods](#object-oriented-methods)
+- [Building Data Models](#building-data-models)
+  - [Entity Relationship Model](#entity-relationship-model)
+  - [Relational Model](#relational-model)
+- [Information Design](#information-design)
 
 ## Concepts
 
@@ -37,3 +41,11 @@ System analysis - the process of studying a procedure or business in order to id
 Object Oriented Analysis - a process that groups items that interact with one another, typically by **class**, **data** or **behavior**, to create a model that accurately representas that indended purpose of the system as a whole.
 
 UML (Unified Modeling Language): A standard language for specifying, visualizing, constructing, and documenting the artifacts of software systems.
+
+## Building Data Models
+
+### Entity Relationship Model
+
+### Relational Model
+
+## Information Design
