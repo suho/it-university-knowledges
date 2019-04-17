@@ -9,6 +9,7 @@
   - [Data Types](#data-types)
   - [Create Table](#create-table)
   - [Drop Table](#drop-table)
+  - [Insert Query](#insert-query)
 
 ## What is Database?
 
@@ -77,4 +78,12 @@ create table users(
 
 ```sql
 DROP TABLE table_name;
+```
+
+### Insert Query
+
+To insert data into a table
+
+```sql
+INSERT INTO table_name (field1, field2, ..., fieldN) VALUES (value1, value2, ..., valueN);
 ```
