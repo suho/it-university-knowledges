@@ -7,8 +7,9 @@
   - [Concepts](#concepts-1)
   - ["Classical" Methods - Structure Oriented](#%22classical%22-methods---structure-oriented)
   - [Object Oriented Methods](#object-oriented-methods)
-- [Status Analytics Methods](#status-analytics-methods)
 - [Building Data Models](#building-data-models)
+  - [Entity Relationship Model](#entity-relationship-model)
+  - [Relational Model](#relational-model)
 - [Information Design](#information-design)
 
 ## Concepts
@@ -41,8 +42,10 @@ Object Oriented Analysis - a process that groups items that interact with one an
 
 UML (Unified Modeling Language): A standard language for specifying, visualizing, constructing, and documenting the artifacts of software systems.
 
-## Status Analytics Methods
-
 ## Building Data Models
+
+### Entity Relationship Model
+
+### Relational Model
 
 ## Information Design
