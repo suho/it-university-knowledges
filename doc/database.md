@@ -210,6 +210,14 @@ ALTER command is very useful when you want to change a name of your table, any t
 
 ### Indexes
 
+A database index is a data structure that improves the speed of operations in a table. Indexes can be created using one or more columns, providing the basis for both rapid random lookups and efficient ordering of access to records.
 
+The users cannot see the indexes, they are just used to speed up queries and will be used by the Database Search Engine to locate records very fast.
+
+The INSERT and UPDATE statements take more time on tables having indexes, whereas the SELECT statements become fast on those tables. The reason is that while doing insert or update, a database needs to insert or update the index values as well.
+
+```sql
+CREATE UNIQUE INDEX index_name ON table_name ( column1, column2,...);
+```
 
 [Image 1]: ../img/sql.join.jpeg
