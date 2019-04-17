@@ -17,6 +17,7 @@
   - [Like Clause](#like-clause)
   - [Sorting Result](#sorting-result)
   - [JOIN](#join)
+  - [NULL Values](#null-values)
 
 ## What is Database?
 
@@ -165,5 +166,15 @@ Used **JOIN** to use multiple tables in single SQL query.
 <p align="center">
     <img src="../img/sql.join.jpeg" />
 </p>
+
+### NULL Values
+
+Use **NULL** in **WHERE** clause
+
+```sql
+IS NULL
+IS NOT NULL
+<=>
+```
 
 [Image 1]: ../img/sql.join.jpeg
