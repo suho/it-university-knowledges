@@ -1,5 +1,14 @@
 # Database
 
+- [What is Database?](#what-is-database)
+- [RDBMS Terminology](#rdbms-terminology)
+- [Query](#query)
+  - [Create Database](#create-database)
+  - [Drop a Database](#drop-a-database)
+  - [Select Database](#select-database)
+  - [Data Types](#data-types)
+  - [Create Table](#create-table)
+
 ## What is Database?
 
 A database is a separate application that stores a collection of data. Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
@@ -31,4 +40,34 @@ CREATE DATABASE database_name;
 
 ```sql
 DROP DATABASE database_name;
+```
+
+### Select Database
+
+```sql
+USE database_name;
+```
+
+### Data Types
+
+- Numeric
+  - M: the display length
+  - D: the number of decimals
+- Date and Time.
+- String Types.
+
+### Create Table
+
+```sql
+CREATE TABLE table_name (column_name column_type);
+```
+
+For example:
+```sql
+create table users(
+   id INT NOT NULL AUTO_INCREMENT,
+   name VARCHAR(100) NOT NULL,
+   birth_day DATE,
+   PRIMARY KEY ( id )
+);
 ```
