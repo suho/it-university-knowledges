@@ -13,6 +13,7 @@
   - [Select Query](#select-query)
   - [WHERE Clause](#where-clause)
   - [Update Query](#update-query)
+  - [Delete Query](#delete-query)
 
 ## What is Database?
 
@@ -119,4 +120,10 @@ WHERE condition1 [AND [OR]] condition2, ...
 ```sql
 UPDATE table_name SET field1 = new-value1, field2 = new-value2
 [WHERE Clause]
+```
+
+### Delete Query
+
+```sql
+DELETE FROM table_name [WHERE Clause]
 ```
