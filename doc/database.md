@@ -10,6 +10,7 @@
   - [Create Table](#create-table)
   - [Drop Table](#drop-table)
   - [Insert Query](#insert-query)
+  - [Select Query](#select-query)
 
 ## What is Database?
 
@@ -86,4 +87,24 @@ To insert data into a table
 
 ```sql
 INSERT INTO table_name (field1, field2, ..., fieldN) VALUES (value1, value2, ..., valueN);
+```
+
+### Select Query
+
+Used to fetch data from database
+
+```sql
+SELECT field1, field2, ..., fieldN FROM table_name
+```
+
+With conditional
+
+```sql
+SELECT field1, field2, ..., fieldN FROM table_name WHERE field1 = "field1"
+```
+
+With offset and limit the number of results
+
+```sql
+SELECT field1, field2, ..., fieldN FROM table_name WHERE field1 = "field1" OFFSET 0 LIMIT 10
 ```
