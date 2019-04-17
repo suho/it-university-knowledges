@@ -16,6 +16,7 @@
   - [Delete Query](#delete-query)
   - [Like Clause](#like-clause)
   - [Sorting Result](#sorting-result)
+  - [JOIN](#join)
 
 ## What is Database?
 
@@ -135,7 +136,7 @@ DELETE FROM table_name [WHERE Clause]
 Used like **=** in `WHERE` clause, but use **LIKE** when we want to filter out all the results where the value contains some characters.
 
 ```sql
-SELECT field1, field2,...fieldN table_name1, table_name2...
+SELECT field1, field2,...fieldN table_name1
 WHERE field1 LIKE condition1 [AND [OR]] filed2 = 'somevalue'
 ```
 
@@ -146,9 +147,23 @@ When **LIKE** is used along with `%` sign then it work like a meta character sea
 Sort a result set by adding an **ORDER BY** clause that names the column or columns which you want to sort.
 
 ```sql
-SELECT field1, field2,...fieldN table_name1, table_name2...
+SELECT field1, field2,...fieldN table_name1
 ORDER BY field1 ASC;
 
-SELECT field1, field2,...fieldN table_name1, table_name2...
+SELECT field1, field2,...fieldN table_name1
 ORDER BY field1, field2 DESC, ASC;
 ```
+
+### JOIN
+
+Used **JOIN** to use multiple tables in single SQL query.
+
+- LEFT JOIN
+- RIGHT JOIN 
+- INNER JOIN
+
+<p align="center">
+    <img src="../img/sql.join.jpeg" />
+</p>
+
+[Image 1]: ../img/sql.join.jpeg
