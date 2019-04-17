@@ -8,6 +8,7 @@
   - [Select Database](#select-database)
   - [Data Types](#data-types)
   - [Create Table](#create-table)
+  - [Drop Table](#drop-table)
 
 ## What is Database?
 
@@ -70,4 +71,10 @@ create table users(
    birth_day DATE,
    PRIMARY KEY ( id )
 );
+```
+
+### Drop Table
+
+```sql
+DROP TABLE table_name;
 ```
