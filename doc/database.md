@@ -18,6 +18,7 @@
   - [Sorting Result](#sorting-result)
   - [JOIN](#join)
   - [NULL Values](#null-values)
+  - [REGEXP](#regexp)
 
 ## What is Database?
 
@@ -176,5 +177,22 @@ IS NULL
 IS NOT NULL
 <=>
 ```
+
+### REGEXP
+
+MySQL supports another type of pattern matching operation based on the regular expressions and the **REGEXP** operator
+
+| Patter         | What the pattern matches                               |
+| -------------- | ------------------------------------------------------ |
+| ^              | Beginning of string                                    |
+| $              | End of string                                          |
+| .              | Any single character                                   |
+| [...]          | Any character listed between the square brackets       |
+| [^...]         | Any character not listed between the square brackets   |
+| p1 or p2 or p3 | Alternation; matches any of the patterns p1, p2, or p3 |
+| *              | Zero or more instances of preceding element            |
+| +              | One or more instances of preceding element             |
+| {n}            | n instances of preceding element                       |
+| {m,n}          | m through n instances of preceding element             |
 
 [Image 1]: ../img/sql.join.jpeg
