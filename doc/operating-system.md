@@ -1,5 +1,9 @@
 # Operating System
 
+> References:
+> > [OS Concepts - Abraham - 2012.pdf](./doc-operating-system/)
+> > [OS - TutorialPoints.pdf](./doc-operating-system/)
+
 ## Overview
 
 ## Types
