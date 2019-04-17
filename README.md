@@ -82,7 +82,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Database]: #
 [Object Oriented Analysis and Design]: #
 [Operating System Principle]: #
-[Software Engineering]: #
+[Software Engineering]: ./doc/software-engineering.md
 [Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
 [Network Programming]: ./doc/network-programming.md
 [Mobile Technology]: ./doc/mobile-technology.md
