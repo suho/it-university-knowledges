@@ -80,7 +80,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Algorithm Analysis and Design]: #
 [Computer Architecture and Microprocessing]: #
 [Database]: #
-[Object Oriented Analysis and Design]: #
+[Object Oriented Analysis and Design]: ./doc/object-oriented-analysis-and-design.md
 [Operating System Principle]: #
 [Software Engineering]: ./doc/software-engineering.md
 [Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
