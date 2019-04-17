@@ -14,6 +14,8 @@
   - [WHERE Clause](#where-clause)
   - [Update Query](#update-query)
   - [Delete Query](#delete-query)
+  - [Like Clause](#like-clause)
+  - [Sorting Result](#sorting-result)
 
 ## What is Database?
 
@@ -126,4 +128,27 @@ UPDATE table_name SET field1 = new-value1, field2 = new-value2
 
 ```sql
 DELETE FROM table_name [WHERE Clause]
+```
+
+### Like Clause
+
+Used like **=** in `WHERE` clause, but use **LIKE** when we want to filter out all the results where the value contains some characters.
+
+```sql
+SELECT field1, field2,...fieldN table_name1, table_name2...
+WHERE field1 LIKE condition1 [AND [OR]] filed2 = 'somevalue'
+```
+
+When **LIKE** is used along with `%` sign then it work like a meta character search.
+
+### Sorting Result
+
+Sort a result set by adding an **ORDER BY** clause that names the column or columns which you want to sort.
+
+```sql
+SELECT field1, field2,...fieldN table_name1, table_name2...
+ORDER BY field1 ASC;
+
+SELECT field1, field2,...fieldN table_name1, table_name2...
+ORDER BY field1, field2 DESC, ASC;
 ```
