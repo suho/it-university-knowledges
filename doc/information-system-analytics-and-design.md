@@ -5,7 +5,8 @@
   - [Management Information System](#management-information-system)
 - [Informatuon System Analytics Methods](#informatuon-system-analytics-methods)
   - [Concepts](#concepts-1)
-  - ["Classical" Method - Structure Oriented](#%22classical%22-method---structure-oriented)
+  - ["Classical" Methods - Structure Oriented](#%22classical%22-methods---structure-oriented)
+  - [Object Oriented Methods](#object-oriented-methods)
 - [Status Analytics Methods](#status-analytics-methods)
 - [Building Data Models](#building-data-models)
 - [Information Design](#information-design)
@@ -27,7 +28,18 @@ A management information system (MIS) is an information system used for decision
 
 ### Concepts
 
-### "Classical" Method - Structure Oriented
+System analysis - the process of studying a procedure or business in order to identify its goals and purpses and create systems and procedures that will achieve them in an efficient way.
+
+### "Classical" Methods - Structure Oriented
+
+- SADT
+- MERISE
+
+### Object Oriented Methods
+
+Object Oriented Analysis - a process that groups items that interact with one another, typically by **class**, **data** or **behavior**, to create a model that accurately representas that indended purpose of the system as a whole.
+
+UML (Unified Modeling Language): A standard language for specifying, visualizing, constructing, and documenting the artifacts of software systems.
 
 ## Status Analytics Methods
 
