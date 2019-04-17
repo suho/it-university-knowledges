@@ -19,6 +19,9 @@
   - [JOIN](#join)
   - [NULL Values](#null-values)
   - [REGEXP](#regexp)
+  - [Transactions](#transactions)
+  - [ALTER Command](#alter-command)
+  - [Indexes](#indexes)
 
 ## What is Database?
 
@@ -194,5 +197,19 @@ MySQL supports another type of pattern matching operation based on the regular e
 | +              | One or more instances of preceding element             |
 | {n}            | n instances of preceding element                       |
 | {m,n}          | m through n instances of preceding element             |
+
+### Transactions
+
+A transaction is a sequential group of database manipulation operations, which is performed as if it were one single work unit. In other words, a transaction will never be complete unless each individual operation within the group is successful. If any operation within the transaction fails, the entire transaction will fail.
+
+The transactions begin with the statement `BEGIN WORK` and end with either a `COMMIT` or a `ROLLBACK` statement. The SQL commands between the beginning and ending statements form the bulk of the transaction.
+
+### ALTER Command
+
+ALTER command is very useful when you want to change a name of your table, any table field or if you want to add or delete an existing column in a table.
+
+### Indexes
+
+
 
 [Image 1]: ../img/sql.join.jpeg
