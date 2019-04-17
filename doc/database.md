@@ -11,6 +11,8 @@
   - [Drop Table](#drop-table)
   - [Insert Query](#insert-query)
   - [Select Query](#select-query)
+  - [WHERE Clause](#where-clause)
+  - [Update Query](#update-query)
 
 ## What is Database?
 
@@ -97,14 +99,24 @@ Used to fetch data from database
 SELECT field1, field2, ..., fieldN FROM table_name
 ```
 
-With conditional
+With offset and limit to get the results in position and the total of results you want.
 
 ```sql
-SELECT field1, field2, ..., fieldN FROM table_name WHERE field1 = "field1"
+SELECT field1, field2, ..., fieldN FROM table_name OFFSET 0 LIMIT 10
 ```
 
-With offset and limit the number of results
+### WHERE Clause
+
+Used to filter out the results
 
 ```sql
-SELECT field1, field2, ..., fieldN FROM table_name WHERE field1 = "field1" OFFSET 0 LIMIT 10
+SELECT field1, field2, ..., fieldN table_name
+WHERE condition1 [AND [OR]] condition2, ...
+```
+
+### Update Query
+
+```sql
+UPDATE table_name SET field1 = new-value1, field2 = new-value2
+[WHERE Clause]
 ```
