@@ -42,4 +42,8 @@ The idea is to simply store the results of subproblems, so that we do not have t
 
 ## Greedy Algorithms
 
+Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
+
 ## Backtracking
+
+Backtracking is an algorithmic technique for solving problems recursively by trying ti build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time
