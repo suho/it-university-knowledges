@@ -45,7 +45,6 @@ This repo will collect base concepts knowledges I learned from my university.
 - [Operating System Principle][Operating System Principle]
 - [Software Technology][Software Engineering]
 - [Information System Analytics and Design][Information System Analytics and Design]
-- [Microcontroller][Microcontroller]
 
 ## Semester 8
 
