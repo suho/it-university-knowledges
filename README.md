@@ -42,7 +42,7 @@ This repo will collect base concepts knowledges I learned from my university.
 ## Semester 7
 
 - [Object Oriented Analysis and Design][Object Oriented Analysis and Design]
-- [Operating System Principle][Operating System Principle]
+- [Principles of Operating System][Principles of Operating System]
 - [Software Technology][Software Engineering]
 - [Information System Analytics and Design][Information System Analytics and Design]
 
@@ -81,7 +81,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Computer Architecture and Microprocessing]: #
 [Database]: ./doc/database.md
 [Object Oriented Analysis and Design]: ./doc/object-oriented-analysis-and-design.md
-[Operating System Principle]: #
+[Principles of Operating System]: #
 [Software Engineering]: ./doc/software-engineering.md
 [Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
 [Network Programming]: ./doc/network-programming.md
