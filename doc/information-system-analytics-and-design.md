@@ -5,7 +5,7 @@
   - [Management Information System](#management-information-system)
 - [Informatuon System Analytics Methods](#informatuon-system-analytics-methods)
   - [Concepts](#concepts-1)
-  - ["Classical" Methods - Structure Oriented](#%22classical%22-methods---structure-oriented)
+  - [Classical Methods - Structure Oriented](#classical-methods---structure-oriented)
   - [Object Oriented Methods](#object-oriented-methods)
 - [Building Data Models](#building-data-models)
   - [Entity Relationship Model](#entity-relationship-model)
@@ -31,7 +31,7 @@ A management information system (MIS) is an information system used for decision
 
 System analysis - the process of studying a procedure or business in order to identify its goals and purpses and create systems and procedures that will achieve them in an efficient way.
 
-### "Classical" Methods - Structure Oriented
+### Classical Methods - Structure Oriented
 
 - SADT
 - MERISE
