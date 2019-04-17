@@ -81,7 +81,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Computer Architecture and Microprocessing]: #
 [Database]: ./doc/database.md
 [Object Oriented Analysis and Design]: ./doc/object-oriented-analysis-and-design.md
-[Principles of Operating System]: #
+[Principles of Operating System]: ./doc/principles-of-operating-system.md
 [Software Engineering]: ./doc/software-engineering.md
 [Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
 [Network Programming]: ./doc/network-programming.md
