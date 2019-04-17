@@ -1,9 +1,5 @@
 # Operating System
 
-> References:
-> > [OS Concepts - Abraham - 2012.pdf](./doc-operating-system/)
-> > [OS - TutorialPoints.pdf](./doc-operating-system/)
-
 ## Overview
 
 ## Types
@@ -32,11 +28,11 @@
 
 ### Batch processing
 
-<img src="./doc-operating-system/img-batch.png">
+<img src="../img/os.batch.png">
 
 ### Multitasking & Multiprogramming
 
-<img src="./doc-operating-system/img-multitasking.png">
+<img src="../img/os.multitasking.png">
 
 ### Interactivity
 
@@ -46,7 +42,7 @@
 
 ### Spooling
 
-<img src="./doc-operating-system/img-spooling.png">
+<img src="../img/os.spooling.png">
 
 ## Process
 
