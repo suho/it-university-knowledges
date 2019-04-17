@@ -77,7 +77,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [System Programming]: #
 [Object Oriented Programming]: #
 [Compiler]: #
-[Algorithm Analysis and Design]: #
+[Algorithm Analysis and Design]: ./doc/algorithm-analysis-and-design.md
 [Computer Architecture and Microprocessing]: #
 [Database]: ./doc/database.md
 [Object Oriented Analysis and Design]: ./doc/object-oriented-analysis-and-design.md
