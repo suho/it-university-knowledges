@@ -11,10 +11,7 @@
   - [Encapsulation](#encapsulation)
   - [Inheritance](#inheritance)
   - [Polymorphism](#polymorphism)
-  - [Dynamic Binding](#dynamic-binding)
-  - [Message Passing](#message-passing)
 - [Benefits of OOP](#benefits-of-oop)
-- [Object Oriented Language](#object-oriented-language)
 - [Application of OOP](#application-of-oop)
 
 ## Software crisis
@@ -132,17 +129,40 @@ Polymorphism is the state where an object can take the shape of many different f
     <img src="../img/oop.polymorphism.png">
 </p>
 
-
-### Dynamic Binding
-
-### Message Passing
+Polymorphism is the flexibility, that triggers the correct behavior.
 
 ## Benefits of OOP
 
-## Object Oriented Language
+The principal advantages are:
+- Through inheritance, we can eliminate redundant code extend the use of existing
+- Classes.
+- We can build programs from the standard working modules that communicate
+with one another, rather than having to start writing the code from scratch. This
+leads to saving of development time and higher productivity.
+- The principle of data hiding helps the programmer to build secure program that
+can not be invaded by code in other parts of a programs.
+- It is possible to have multiple instances of an object to co-exist without any
+interference.
+- It is possible to map object in the problem domain to those in the program.
+- It is easy to partition the work in a project based on objects.
+- The data-centered design approach enables us to capture more detail of a model
+can implemental form.
+- Object-oriented system can be easily upgraded from small to large system.
+- Message passing techniques for communication between objects makes to
+interface descriptions with external systems much simpler.
+- Software complexity can be easily managed.
 
 ## Application of OOP
 
+The promising areas of application of OOP include:
+- Real-time system
+- Simulation and modeling
+- Object-oriented data bases
+- Hypertext, Hypermedia, and expertext
+- AI and expert systems
+- Neural networks and parallel programming
+- Decision support and office automation systems
+- CIM/CAM/CAD systems
 
 [Image 1]: ../img/oop.layers.png
 [Image 2]: ../img/oop.class.png
