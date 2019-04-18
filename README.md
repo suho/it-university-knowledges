@@ -45,6 +45,7 @@ This repo will collect base concepts knowledges I learned from my university.
 - [Principles of Operating System][Principles of Operating System]
 - [Software Technology][Software Engineering]
 - [Information System Analytics and Design][Information System Analytics and Design]
+- [Microcontroller][Microcontroller]
 
 ## Semester 8
 
@@ -84,6 +85,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Principles of Operating System]: #
 [Software Engineering]: ./doc/software-engineering.md
 [Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
+[Microcontroller]: #
 [Network Programming]: ./doc/network-programming.md
 [Mobile Technology]: ./doc/mobile-technology.md
 [JAVA Programming]: ./doc/java-programming.md
