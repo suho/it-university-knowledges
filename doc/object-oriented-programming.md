@@ -126,6 +126,13 @@ Abstraction is, instead of creating different classes, we can instead create on 
 
 ### Polymorphism
 
+Polymorphism is the state where an object can take the shape of many different forms, and lets us do the right thing at the right time.
+
+<p align="center">
+    <img src="../img/oop.polymorphism.png" width="50%">
+</p>
+
+
 ### Dynamic Binding
 
 ### Message Passing
@@ -140,3 +147,4 @@ Abstraction is, instead of creating different classes, we can instead create on 
 [Image 1]: ../img/oop.layers.png
 [Image 2]: ../img/oop.class.png
 [Image 3]: ../img/opp.inheritance.png
+[Image 4]: ../img/oop.polymorphism.png
