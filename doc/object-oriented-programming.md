@@ -95,7 +95,7 @@ A **class** is the place where you can identify the behaviors and properties of 
 So, a class is a blueprint, it provides the definition for an Object, the definition says what are the properties and the behaviors of the Object.
 
 <p align="center">
-    <img src="../img/oop.class.png">
+    <img src="../img/oop.class.png" width="50%">
 </p>
 
 In fact, objects are variables of the type class. Once a class has been defined, we can create any number of objects belonging to that class. However, even they share the same type class, each Object instantiated from this Class is independent on the other.
