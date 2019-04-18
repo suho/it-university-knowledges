@@ -107,6 +107,7 @@ Abstraction refers to the act of representing essential features without includi
 Abstraction means you start focusing on the common properties and behaviors of some Objects, and we automatically will discard what's unimportant or irrelevant.
 
 > For example, what came into your mind when I say "Car"?
+> 
 > If we say Car, we didn’t explicitly say if the car is BMW or Audi, if it’s red or black, if it’s small or large. Your mental model of a car might have a color and size, but, it’s unlikely to have a smell or a flavor because those things are irrelevant to the idea of a car.
 
 
