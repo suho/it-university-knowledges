@@ -41,7 +41,7 @@ To build today's complex software it is just not enough to put together a sequen
 
 POP basically consists of writing a list of instructions for the computer to follow, and organizing these instructions into groups known as functions.
 
-Some characteristics exhibited by procedure-oriented programming are:
+Some characteristics exhibited by procedure-oriented programming:
 - Emphasis is on doing things (algorithms)
 - Large programs are divided into smaller programs known as functions
 - Most of the functions share global data
@@ -51,11 +51,53 @@ Some characteristics exhibited by procedure-oriented programming are:
 
 ## OOP (Object Oriented Programming)
 
+Some of the features of object oriented programming:
+- Emphasis is on data rather than procedure
+- Programs are divided into what are known as objects
+- Data structures are designed such that they characterize the objects
+- Functions that operate on the data of an object are ties together in the data structure
+- Data is hidden and cannot be accessed by external function
+- Objects may communicate with each other through function
+- New data and functions can be easily added whenever necessary
+- Follows bottom up approach in program design
+
 ## Basic concepts of OOP
 
 ### Objects
 
+Object are the basic run time entities in an object-oriented system. 
+
+When you think about Objects, you should think about the real world situations. Objects could be:
+- Something visible for you, like the car, phone, apple, duck, lamp.
+- Something that you can't touch, like Time, Event, Account.
+
+Each Object has it's own **attributes**, and **behavior**. Object are separate from one onther. They have their own existence, their own identity that is independent of other objects.
+
+When a program is executed, the objects interact by sending messages to one another.
+
+#### Attributes
+
+Attributes is the characteristic or the properties of the Object
+
+For example, in case of a **duck**, it's **weight** & **color**. They describe the current state of an object. The state of one object is independent of another. Maybe you will have a duck that’s white and another one is black.
+
+#### Behavior
+
+Behavior is things that the Object can do, in case of **duck**, it can **fly**.
+
+So how do we construct these objects in our program? - **Class**
+
 ### Classes
+
+A **class** is the place where you can identify the behaviors and properties of an Object. So, the properties and behavior of an Object, will be defined inside a class.
+
+So, a class is a blueprint, it provides the definition for an Object, the definition says what are the properties and the behaviors of the Object.
+
+<p align="center">
+    <img src="../img/oop.class.png">
+</p>
+
+In fact, objects are variables of the type class. Once a class has been defined, we can create any number of objects belonging to that class. However, even they share the same type class, each Object instantiated from this Class is independent on the other.
 
 ### Data Abstraction and Data Encapsulation
 
@@ -75,3 +117,4 @@ Some characteristics exhibited by procedure-oriented programming are:
 
 
 [Image 1]: ../img/oop.layers.png
+[Image 2]: ../img/oop.class.png
