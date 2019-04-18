@@ -129,7 +129,7 @@ Abstraction is, instead of creating different classes, we can instead create on 
 Polymorphism is the state where an object can take the shape of many different forms, and lets us do the right thing at the right time.
 
 <p align="center">
-    <img src="../img/oop.polymorphism.png" width="50%">
+    <img src="../img/oop.polymorphism.png">
 </p>
 
 
