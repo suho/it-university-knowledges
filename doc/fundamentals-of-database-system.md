@@ -1,5 +1,20 @@
 # Fundamentals of Database System
 
+About:
+
+- Database Management System (*)
+- Relational Data Model & SQL (*)
+- Conceptual Modeling & Database Design (*)
+- Object and Object-Relational Databases
+- Database Programming Techniques
+- Database Design Theory and Normalization
+- File Structures, Indexing, and Hashing
+- Query Processing and Optimization, and Database Tuning
+- Transaction Processing, Concurrency Control, and Recovery (*)
+- Additional Database Topics: Security and Distribution (*)
+- Advanced Database Models, Systems, and Applications (*)
+(*) Important
+
 ## Overview
 
 ### 1. Define the following terms: 
