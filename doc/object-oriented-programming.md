@@ -108,12 +108,21 @@ Abstraction means you start focusing on the common properties and behaviors of s
 
 > For example, what came into your mind when I say "Car"?
 > 
-> If we say Car, we didn’t explicitly say if the car is BMW or Audi, if it’s red or black, if it’s small or large. Your mental model of a car might have a color and size, but, it’s unlikely to have a smell or a flavor because those things are irrelevant to the idea of a car.
-
+> If we say Car, we  didn’t explicitly say if the car is BMW or Audi, if it’s red or black, if it’s small or large. Your mental model of a car might have a color and size, but, it’s unlikely to have a smell or a flavor because those things are irrelevant to the idea of a car.
 
 ### Encapsulation
 
+Encapsulation implies the idea of breaking down our program into small mini-programs; classes, where each class has a set of relate attributes and behaviors.
+
+Encapsulation also implies the idea of hiding the content of a Class, unless it's necessary to expose. We need to restrict the access to our class as much as we can, so that we can change the properties and the behaviors.
+
 ### Inheritance
+
+Inheritance is the process by which objects of one class acquired the properties and behaviors of objects of another classes.
+
+Abstraction is, instead of creating different classes, we can instead create on generic class that has the common, and essential properties and behaviors of those classes, while Inheritence is inheriting these common properties and behaviors, so that we can create a new class, but instead of writing it from scratch, we can base it on an existing class.
+
+![Image 3]
 
 ### Polymorphism
 
@@ -130,3 +139,4 @@ Abstraction means you start focusing on the common properties and behaviors of s
 
 [Image 1]: ../img/oop.layers.png
 [Image 2]: ../img/oop.class.png
+[Image 3]: ../img/opp.inheritance.png
