@@ -74,6 +74,10 @@ Components:
 - Resources
 - Status: New, Ready, Running, Waiting, Terminated
 
+<p align="center">
+	<img src="../img/os.process.status.png" width="60%" />
+</p>
+
 ### Process Control Block (PCB)
 
 Each procecss is represented in the OS by a **Process Control Block (PCB)**.
@@ -102,4 +106,5 @@ The process scheduling is:
 </p>
 
 [Image 1]: ../img/os.position.png
-[Image 2]: ../img/os.thread.png
+[Image 2]: ../img/os.process.status.png
+[Image 3]: ../img/os.thread.png
