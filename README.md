@@ -79,7 +79,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Object Oriented Programming]: ./doc/sem6.object-oriented-programming.md
 [Compiler]: #
 [Algorithm Analysis and Design]: ./doc/sem6.algorithm-analysis-and-design.md
-[Computer Architecture and Microprocessing]: #
+[Computer Architecture and Microprocessing]: ./doc/sem6.computer-architecture-and-microprocessing.md
 [Database]: ./doc/sem6.database.md
 [Object Oriented Analysis and Design]: ./doc/sem7.object-oriented-analysis-and-design.md
 [Principles of Operating System]: ./doc/sem7.principles-of-operating-system.md
