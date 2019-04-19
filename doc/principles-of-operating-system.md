@@ -11,6 +11,7 @@
 	- [Scheduling](#scheduling)
 - [Operating System Multi-Threading](#operating-system-multi-threading)
 	- [Thread](#thread)
+	- [Difference between Process and Thread](#difference-between-process-and-thread)
 
 ## Introduction
 
@@ -104,6 +105,19 @@ The process scheduling is:
 <p align="center">
 	<img src="../img/os.thread.png" width="60%" />
 </p>
+
+### Difference between Process and Thread
+
+| Process                                                                   | Thread                                                                           |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| heavy weight                                                              | light weight                                                                     |
+| Process switching needs interaction with OS                               | Thread switching does not need to interact with OS                               |
+| In multiple processing, each process has it ouw memory and file resources | All threads can share memory and resources                                       |
+| If one process if blocked then no other process can execute               | While one thread is blocked and waiting, another thread in the same task can run |
+| Multiple processes use more resources                                     | Multiple threaded processes use fewer resources                                  |
+| In multiple processes independently of the others                         | One thread can read, write or change another thread's data.                      |
+
+
 
 [Image 1]: ../img/os.position.png
 [Image 2]: ../img/os.process.status.png
