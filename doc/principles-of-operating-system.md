@@ -80,7 +80,7 @@ Components:
 - Status: New, Ready, Running, Waiting, Terminated
 
 <p align="center">
-	<img src="../img/os.process.status.png" width="60%" />
+	<img src="../img/os.process.status.png" width="80%" />
 </p>
 
 ### Process Control Block (PCB)
@@ -113,7 +113,7 @@ Process Scheduling Algorithms:
 - Threads provide a suitable foundation for parallel execution of apps on shared memory multiprocesser
 
 <p align="center">
-	<img src="../img/os.thread.png" width="60%" />
+	<img src="../img/os.thread.png" width="80%" />
 </p>
 
 ### Difference between Process and Thread
@@ -148,7 +148,7 @@ Swapping is a mechanism in which a process can be swapped temporarily out of mai
 Backing store is usually a hard disk.
 
 <p align="center">
-	<img src="../img/os.swapping.png" width="60%" />
+	<img src="../img/os.swapping.png" width="80%" />
 </p>
 
 ### Virtual Memory
