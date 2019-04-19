@@ -62,6 +62,12 @@ Activities:
 
 ### Process
 
-A process is defined as an entity which represents the basic unit of work to be implemented in the system
+A process is defined as an entity which represents the basic unit of work to be implemented in the system.
+
+Components:
+- Object Program
+- Data
+- Resources
+- Status
 
 [Image 1]: ../img/os.position.png
