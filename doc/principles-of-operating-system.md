@@ -7,6 +7,10 @@
 	- [File Management](#file-management)
 - [Operating System Processes](#operating-system-processes)
 	- [Process](#process)
+	- [Process Control Block (PCB)](#process-control-block-pcb)
+	- [Scheduling](#scheduling)
+- [Operating System Multi-Threading](#operating-system-multi-threading)
+	- [Thread](#thread)
 
 ## Introduction
 
@@ -62,12 +66,40 @@ Activities:
 
 ### Process
 
-A process is defined as an entity which represents the basic unit of work to be implemented in the system.
+Process is a program in execution.
 
 Components:
 - Object Program
 - Data
 - Resources
-- Status
+- Status: New, Ready, Running, Waiting, Terminated
+
+### Process Control Block (PCB)
+
+Each procecss is represented in the OS by a **Process Control Block (PCB)**.
+
+PCB is the data structure used by the OS. PCB contains many pieces of information associated with a specific process.
+
+### Scheduling
+
+The process scheduling is:
+- removal of the running process from the CPU
+- selection of another process on the basis of a particular strategy
+- allow more than one process to be loaded into the executable memory at a time
+
+## Operating System Multi-Threading
+
+### Thread
+
+- A **thread** is a flow of execution through the process code, with its own program counter, system registers and stack
+- A **thread** is a light weight process
+- Threads provide a way to improve application performance through parallelism.
+- Each thread belongs to exactly one process and no thread can exist outside a process.
+- Threads provide a suitable foundation for parallel execution of apps on shared memory multiprocesser
+
+<p align="center">
+	<img src="../img/os.thread.png" width="60%" />
+</p>
 
 [Image 1]: ../img/os.position.png
+[Image 2]: ../img/os.thread.png
