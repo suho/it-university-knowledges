@@ -153,7 +153,9 @@ Backing store is usually a hard disk.
 
 ### Virtual Memory
 
+**Virtual Memory** is a technique that allows the execution of processes which are not completely available in memory.
 
+The main visible advantage of this scheme is that programs can be larger than physical memory.
 
 [Image 1]: ../img/os.position.png
 [Image 2]: ../img/os.process.status.png
