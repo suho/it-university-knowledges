@@ -1,6 +1,12 @@
 # Operating System
 
 - [Introduction](#introduction)
+	- [Memory Management](#memory-management)
+	- [Process Management](#process-management)
+	- [Device Management](#device-management)
+	- [File Management](#file-management)
+- [Operating System Processes](#operating-system-processes)
+	- [Process](#process)
 
 ## Introduction
 
@@ -16,6 +22,46 @@ Important functions of an OS:
 - Device Management
 - File Management
 - Security
-- 
+- Control over system performance
+- Job accounting
+- Error detecting aids
+- Coordination between other software and users
+
+### Memory Management
+
+Activities for memory management:
+- Keeps tracks of primary memory
+- OS decides which process will get memory when and how much
+- Allocates the memory when the process requests it to do so
+- De-allocates the memory when the process no longer needs it or has been terminated
+
+### Process Management
+
+Activities:
+- Keeps tracks of processor and status of process.
+- Allocates the processor (CPU) to a process
+- De-allocates processor when processor is no longer required
+
+### Device Management
+
+Activities:
+- Keeps tracks of all devices
+- Decides which process gets the device when and for how much time
+- Allocates the device in the efficient way
+- De-allocates devices
+
+### File Management
+
+Activities:
+- Keeps tracks of information, location, uses, status, etc.
+- Decides who gets the resources
+- Allocates the resources
+- De-allocates the resources
+
+## Operating System Processes
+
+### Process
+
+A process is defined as an entity which represents the basic unit of work to be implemented in the system
 
 [Image 1]: ../img/os.position.png
