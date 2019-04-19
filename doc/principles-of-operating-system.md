@@ -10,6 +10,12 @@ An **operating system** (OS) is a program that acts as an interface between the 
 	<img src="../img/os.position.png" width="60%" />
 </p>
 
-Important functions of an OS
+Important functions of an OS:
+- Memory Management
+- Processor Management
+- Device Management
+- File Management
+- Security
+- 
 
 [Image 1]: ../img/os.position.png
