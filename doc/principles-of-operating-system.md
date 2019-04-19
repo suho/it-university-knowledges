@@ -12,6 +12,7 @@
 - [Operating System Multi-Threading](#operating-system-multi-threading)
 	- [Thread](#thread)
 	- [Difference between Process and Thread](#difference-between-process-and-thread)
+- [Memory Management (MM)](#memory-management-mm)
 
 ## Introduction
 
@@ -92,6 +93,12 @@ The process scheduling is:
 - selection of another process on the basis of a particular strategy
 - allow more than one process to be loaded into the executable memory at a time
 
+Process Scheduling Algorithms:
+- FIFO (First In First Out) or FCFS (First Come First Serve) Scheduling
+- Round Robin Scheduling
+- SJF (Shortest-Job-First) Scheduling
+- Priority Scheduling
+
 ## Operating System Multi-Threading
 
 ### Thread
@@ -117,7 +124,11 @@ The process scheduling is:
 | Multiple processes use more resources                                     | Multiple threaded processes use fewer resources                                  |
 | In multiple processes independently of the others                         | One thread can read, write or change another thread's data.                      |
 
+## Memory Management (MM)
 
+- **MM** is the functionality of an OS which handles or manages primary memory.
+- **MM** keeps and checks track of each and every memory location either it is allocated to some process or it is free.
+- **MM** tracks whenever some memory gets freed or unallocated and correspondingly it updates the status.
 
 [Image 1]: ../img/os.position.png
 [Image 2]: ../img/os.process.status.png
