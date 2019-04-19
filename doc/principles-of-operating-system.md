@@ -15,6 +15,7 @@
 - [Memory Management (MM)](#memory-management-mm)
 	- [Logical versus Physical Address Space](#logical-versus-physical-address-space)
 	- [Swapping](#swapping)
+	- [Virtual Memory](#virtual-memory)
 
 ## Introduction
 
@@ -149,6 +150,10 @@ Backing store is usually a hard disk.
 <p align="center">
 	<img src="../img/os.swapping.png" width="60%" />
 </p>
+
+### Virtual Memory
+
+
 
 [Image 1]: ../img/os.position.png
 [Image 2]: ../img/os.process.status.png
