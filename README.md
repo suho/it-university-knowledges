@@ -76,21 +76,21 @@ This repo will collect base concepts knowledges I learned from my university.
 [Applied Digital Engineering]: #
 [Data Transmissions Engineering]: #
 [System Programming]: #
-[Object Oriented Programming]: ./doc/object-oriented-programming.md
+[Object Oriented Programming]: ./doc/sem6.object-oriented-programming.md
 [Compiler]: #
-[Algorithm Analysis and Design]: ./doc/algorithm-analysis-and-design.md
+[Algorithm Analysis and Design]: ./doc/sem6.algorithm-analysis-and-design.md
 [Computer Architecture and Microprocessing]: #
-[Database]: ./doc/database.md
-[Object Oriented Analysis and Design]: ./doc/object-oriented-analysis-and-design.md
-[Principles of Operating System]: ./doc/principles-of-operating-system.md
-[Software Engineering]: ./doc/software-engineering.md
-[Information System Analytics and Design]: ./doc/information-system-analytics-and-design.md
-[Microcontroller]: ./doc/microcontroller.md
-[Network Programming]: ./doc/network-programming.md
-[Mobile Technology]: ./doc/mobile-technology.md
-[JAVA Programming]: ./doc/java-programming.md
-[Web Technology]: ./doc/web-technology.md
-[Open Source Software Development]: ./doc/open-source-software-development.md
-[Software Testing]: ./doc/software-testing.md
-[IT Project Management]: ./doc/it-project-management.md
-[Service Oriented Technology]: ./doc/service-oriented-technology.md
+[Database]: ./doc/sem6.database.md
+[Object Oriented Analysis and Design]: ./doc/sem7.object-oriented-analysis-and-design.md
+[Principles of Operating System]: ./doc/sem7.principles-of-operating-system.md
+[Software Engineering]: ./doc/sem7.software-engineering.md
+[Information System Analytics and Design]: ./doc/sem7.information-system-analytics-and-design.md
+[Microcontroller]: ./doc/sem7.microcontroller.md
+[Network Programming]: ./doc/sem8.network-programming.md
+[Mobile Technology]: ./doc/sem8.mobile-technology.md
+[JAVA Programming]: ./doc/sem8.java-programming.md
+[Web Technology]: ./doc/sem8.web-technology.md
+[Open Source Software Development]: ./doc/sem9.open-source-software-development.md
+[Software Testing]: ./doc/sem9.software-testing.md
+[IT Project Management]: ./doc/sem9.it-project-management.md
+[Service Oriented Technology]: ./doc/sem9.service-oriented-technology.md
