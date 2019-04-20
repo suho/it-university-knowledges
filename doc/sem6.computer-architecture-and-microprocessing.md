@@ -6,7 +6,10 @@
   - [Computer Architecture](#computer-architecture)
   - [Components of Computer](#components-of-computer)
 - [Computer System](#computer-system)
-  - [Components of CPU](#components-of-cpu)
+  - [CPU](#cpu)
+  - [Memory](#memory)
+  - [Input/Output Devices](#inputoutput-devices)
+  - [System Bus](#system-bus)
 
 ## Overview
 
@@ -64,7 +67,7 @@ System Bus: Connects the major components of a computer system, combining the fu
 
 ## Computer System
 
-### Components of CPU
+### CPU
 
 <p align="center">
     <img src="../img/ca.cpu.internal.png" width="70%" />
@@ -78,6 +81,46 @@ System Bus: Connects the major components of a computer system, combining the fu
 
 - **System Bus**, Connects the major components of a computer system, combining the functions of a **data bus** to carry information, an **address bus** to determine where it should be sent, and a **control bus** to determine its operation.
 
+### Memory
+
+Functions: Stores programs and data.
+
+Action: Write and Read
+
+Components: Internal Memory, External Memory
+
+#### Internal Memory
+
+Contains information that CPU can access directly, quickly, but capacity is not large, use ROM and RAM.
+
+- ROM - Read Only Memory
+  - Programmable ROM (PROM)
+  - Erasable PROM (EPROM)
+  - Electrically EPROM (EEPROM)
+  - Flash Memory
+
+- RAM - Random Access Memory
+  - Static RAM (SRAM)
+  - Dynamic RAM (DRAM)
+  - ...
+
+#### External Memory
+
+Functions: Stores resources of computers, connect with computer system like input/ouput devices, large capacity, slowly access.
+
+Types: Hard drive, soft drive, CD, DVD, Flash storage, memory card.
+
+### Input/Output Devices
+
+Functions: information exchange between computer and the world.
+
+Action: Write and Read
+
+Components: Peripheral Devices, IO Modules.
+
+### System Bus
+
+Connects the major components of a computer system, combining the functions of a **data bus** to carry information, an **address bus** to determine where it should be sent, and a **control bus** to determine its operation.
 
 [Image 1]: ../img/ca.computer.png
 [Image 2]: ../img/ca.structure.png
