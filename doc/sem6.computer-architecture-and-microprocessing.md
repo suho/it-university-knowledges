@@ -6,7 +6,7 @@
   - [Computer Architecture](#computer-architecture)
   - [Components of Computer](#components-of-computer)
 - [Computer System](#computer-system)
-  - [Components](#components)
+  - [Components of CPU](#components-of-cpu)
 
 ## Overview
 
@@ -64,13 +64,20 @@ System Bus: Connects the major components of a computer system, combining the fu
 
 ## Computer System
 
-### Components
-
-CPU, controls operations of computer, process the data. CPU acts based on the program inside the main memory
+### Components of CPU
 
 <p align="center">
     <img src="../img/ca.cpu.png" width="70%" />
 </p>
+
+- **CU**, controls actions of computer by program.
+
+- **Arithmetic and Logic Unit**, perform arithmetic and logic operations.
+
+- **Register File**, an array of processor registers in a CPU
+
+- **System Bus**, Connects the major components of a computer system, combining the functions of a **data bus** to carry information, an **address bus** to determine where it should be sent, and a **control bus** to determine its operation.
+
 
 [Image 1]: ../img/ca.computer.png
 [Image 2]: ../img/ca.structure.png
