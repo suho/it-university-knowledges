@@ -77,7 +77,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Data Transmissions Engineering]: #
 [System Programming]: #
 [Object Oriented Programming]: ./doc/sem6.object-oriented-programming.md
-[Compiler]: #
+[Compiler]: ./doc/sem6.compiler.md
 [Algorithm Analysis and Design]: ./doc/sem6.algorithm-analysis-and-design.md
 [Computer Architecture and Microprocessing]: ./doc/sem6.computer-architecture-and-microprocessing.md
 [Database]: ./doc/sem6.database.md
