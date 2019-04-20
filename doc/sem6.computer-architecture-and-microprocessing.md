@@ -67,7 +67,7 @@ System Bus: Connects the major components of a computer system, combining the fu
 ### Components of CPU
 
 <p align="center">
-    <img src="../img/ca.cpu.png" width="70%" />
+    <img src="../img/ca.cpu.internal.png" width="70%" />
 </p>
 
 - **CU**, controls actions of computer by program.
@@ -81,4 +81,4 @@ System Bus: Connects the major components of a computer system, combining the fu
 
 [Image 1]: ../img/ca.computer.png
 [Image 2]: ../img/ca.structure.png
-[Image 3]: ../img/ca.cpu.png
+[Image 3]: ../img/ca.cpu.internal.png
