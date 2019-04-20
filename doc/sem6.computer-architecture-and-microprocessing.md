@@ -69,7 +69,7 @@ System Bus: Connects the major components of a computer system, combining the fu
 CPU, controls operations of computer, process the data. CPU acts based on the program inside the main memory
 
 <p align="center">
-    <img src="../img/ca.cpu.png" />
+    <img src="../img/ca.cpu.png" width="70%" />
 </p>
 
 [Image 1]: ../img/ca.computer.png
