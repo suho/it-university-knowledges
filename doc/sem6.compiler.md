@@ -10,7 +10,9 @@
 
 Compilation is a process that translates a program in one language (the source language) into an equivalent program in another language (the object or target language).
 
-![Image 1]
+<p align="center">
+    <img src="../img/c.compiler.png" width="70%" />
+</p>
 
 An important part of any compiler is the detection and reporting of **errors**
 
@@ -20,11 +22,15 @@ Commonly, the **source language** is a high-love programming language, and the *
 
 An assembler is also a type of **translator**
 
-![Image 2]
+<p align="center">
+    <img src="../img/c.assembler.png" width="70%" />
+</p>
 
 An **interpreter** is closely related to a compiler, but takes both **source program** and **input data**. The translation and execution phases of the source program are one and the same.
 
-![Image 3]
+<p align="center">
+    <img src="../img/c.interpreter.png" width="70%" />
+</p>
 
 [Image 1]: ../img/c.compiler.png
 [Image 2]: ../img/c.assembler.png
