@@ -5,6 +5,8 @@
   - [Classification of Computers](#classification-of-computers)
   - [Computer Architecture](#computer-architecture)
   - [Components of Computer](#components-of-computer)
+- [Computer System](#computer-system)
+  - [Components](#components)
 
 ## Overview
 
@@ -54,11 +56,22 @@ Computer Architecture consists of three main categories:
 
 Central Processing Unit: The CPU sends signals to control the other parts of the computer, almost like how brain controls a body.
 
-Main Memory: 
+Main Memory (Random Access Memory - RAM): Store operating system software, software applications and other information.
 
-Input/Output:
+Input/Output: Interact information between computer and another devices.
 
-System Bus:
+System Bus: Connects the major components of a computer system, combining the functions of a **data bus** to carry information, an **address bus** to determine where it should be sent, and a **control bus** to determine its operation.
+
+## Computer System
+
+### Components
+
+CPU, controls operations of computer, process the data. CPU acts based on the program inside the main memory
+
+<p align="center">
+    <img src="../img/ca.cpu.png" />
+</p>
 
 [Image 1]: ../img/ca.computer.png
 [Image 2]: ../img/ca.structure.png
+[Image 3]: ../img/ca.cpu.png
