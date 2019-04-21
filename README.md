@@ -69,7 +69,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Calculation Methodologies]: #
 [Discrete Mathematics]: #
 [Artificial Intelligence]: #
-[Data Structure]: #
+[Data Structure]: ./doc/sem5.data-structure.md
 [Computer Networks]: ./doc/sem5.computer-networks.md
 [Formal Languages]: ./doc/sem5.formal-languages.md
 [Digital Signal Processing]: ./doc/sem5.digital-signal-processing.md
