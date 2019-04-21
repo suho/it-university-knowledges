@@ -71,7 +71,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Artificial Intelligence]: #
 [Data Structure]: #
 [Computer Networks]: #
-[Formal Languages]: #
+[Formal Languages]: ./doc/sem5.formal-languages.md
 [Digital Signal Processing]: ./doc/sem5.digital-signal-processing.md
 [Applied Digital Engineering]: ./doc/sem5.applied-digital-engineering.md
 [Data Transmissions Engineering]: ./doc/sem5.data-transmissions-engineering.md
