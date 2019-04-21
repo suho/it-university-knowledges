@@ -74,8 +74,8 @@ This repo will collect base concepts knowledges I learned from my university.
 [Formal Languages]: #
 [Digital Signal Processing]: #
 [Applied Digital Engineering]: #
-[Data Transmissions Engineering]: #
-[System Programming]: #
+[Data Transmissions Engineering]: ./doc/sem5.data-transmissions-engineering.md
+[System Programming]: ./doc/sem6.sytem-programming.md
 [Object Oriented Programming]: ./doc/sem6.object-oriented-programming.md
 [Compiler]: ./doc/sem6.compiler.md
 [Algorithm Analysis and Design]: ./doc/sem6.algorithm-analysis-and-design.md
