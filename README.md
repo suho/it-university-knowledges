@@ -73,7 +73,7 @@ This repo will collect base concepts knowledges I learned from my university.
 [Computer Networks]: #
 [Formal Languages]: #
 [Digital Signal Processing]: #
-[Applied Digital Engineering]: #
+[Applied Digital Engineering]: ./doc/sem5.applied-digital-engineering.md
 [Data Transmissions Engineering]: ./doc/sem5.data-transmissions-engineering.md
 [System Programming]: ./doc/sem6.sytem-programming.md
 [Object Oriented Programming]: ./doc/sem6.object-oriented-programming.md
