@@ -12,6 +12,7 @@
 - [Operating System Multi-Threading](#operating-system-multi-threading)
 	- [Thread](#thread)
 	- [Difference between Process and Thread](#difference-between-process-and-thread)
+	- [Multicore programming ~ Multiprocessor programming](#multicore-programming--multiprocessor-programming)
 - [Memory Management (MM)](#memory-management-mm)
 	- [Logical versus Physical Address Space](#logical-versus-physical-address-space)
 	- [Swapping](#swapping)
@@ -126,6 +127,19 @@ Process Scheduling Algorithms:
 | If one process if blocked then no other process can execute               | While one thread is blocked and waiting, another thread in the same task can run |
 | Multiple processes use more resources                                     | Multiple threaded processes use fewer resources                                  |
 | In multiple processes independently of the others                         | One thread can read, write or change another thread's data.                      |
+
+### Multicore programming ~ Multiprocessor programming
+System with single core, concurrency = execution of thread will be interleaved overtime
+T1 T2 T3 T4 T1 T2 T3 T4 T1 T2 T3 T4 ...
+
+System with multicore, concurency = threads can run in parallel
+T1 T3 T1 T3 T1 T3 ...
+
+T2 T4 T2 T4 T2 T4 ...
+
+**Concurency**: It supports more than 1 task by allowing all task to make process
+
+**Parallelism**: It can perform more than 1 task simultaneously
 
 ## Memory Management (MM)
 
