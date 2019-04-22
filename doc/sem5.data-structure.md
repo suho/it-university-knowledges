@@ -17,6 +17,7 @@
   - [Time versus place complexity](#time-versus-place-complexity)
   - [Big-O notation for Complexity Class](#big-o-notation-for-complexity-class)
 - [Trees](#trees)
+  - [General Specification of Trees](#general-specification-of-trees)
 - [Binary Search Trees](#binary-search-trees)
 - [Priority Queues and Heap Trees](#priority-queues-and-heap-trees)
 - [Sorting](#sorting)
@@ -147,6 +148,12 @@ else return -1;
 
 ## Trees
 
+### General Specification of Trees
+
+<p align="center">
+    <img src="../img/ds.trees.png" width="70%" />
+</p>
+
 ## Binary Search Trees
 
 ## Priority Queues and Heap Trees
@@ -161,3 +168,4 @@ else return -1;
 [Image 2]: ../img/ds.stacks.png
 [Image 3]: ../img/ds.queues.png
 [Image 4]: ../img/ds.doubly-lists.png
+[Image 5]: ../img/ds.trees.png
