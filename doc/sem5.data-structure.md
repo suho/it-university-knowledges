@@ -14,6 +14,8 @@
   - [Linear Search](#linear-search)
   - [Binary Search](#binary-search)
 - [Efficiency and Complexity](#efficiency-and-complexity)
+  - [Time versus place complexity](#time-versus-place-complexity)
+  - [Big-O notation for Complexity Class](#big-o-notation-for-complexity-class)
 - [Trees](#trees)
 - [Binary Search Trees](#binary-search-trees)
 - [Priority Queues and Heap Trees](#priority-queues-and-heap-trees)
@@ -123,6 +125,23 @@ else return -1;
 ```
 
 ## Efficiency and Complexity
+
+### Time versus place complexity
+
+**Time Complexity** of the algorithm as an indicator of how the execution time depends on the size of the data structure.
+
+**Space Complexity** as how the memory requirement depends on the size of the data structure.
+
+### Big-O notation for Complexity Class
+
+**Big-O notation**, describes the time complexity of an algorithm.
+
+$$
+\frac{n!}{k!(n-k)!} = {n \choose k}
+$$
+
+- O(1)
+- O(log2log2n)
 
 ## Trees
 
