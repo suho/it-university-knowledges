@@ -136,12 +136,14 @@ else return -1;
 
 **Big-O notation**, describes the time complexity of an algorithm.
 
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
-
 - O(1)
-- O(log2log2n)
+- O(log2log2(n))
+- O(log2(n))
+- O(n)
+- O(nlog2(n))
+- O(n^2)
+- O(n^3)
+- O(2^n)
 
 ## Trees
 
