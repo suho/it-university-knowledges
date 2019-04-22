@@ -9,7 +9,6 @@
   - [Recursion](#recursion)
   - [Stacks](#stacks)
   - [Queues](#queues)
-  - [Graphical Representation](#graphical-representation)
 - [Searching](#searching)
 - [Efficiency and Complexity](#efficiency-and-complexity)
 - [Trees](#trees)
@@ -52,20 +51,11 @@ Invariants are important for data structures and algorithms because they enable 
 
 ### Linked Lists
 
-#### Graphical Reresentation
-
 Non-empty **lists** can be represented by **two cells**, in each of which the first cell contains a _pointer_ to a list **element** and the second cell contains a _pointer_ to either the empty list or another two-cell.
 
 For instance, the list `[3, 1, 4, 2, 5]`
 
 ![Image 1]
-
-#### Working with Lists
-
-- Constructed
-- Access element of Lists
-- Check empty
-- Replace element
 
 ### Recursion
 
@@ -75,27 +65,15 @@ For-loops was a natural way to process collections of items stored in arrays. Wh
 
 **Stack** are, on an abstract level, equivalent to linked lists. They are the ideal data structure to model a First-In-Last-Out (FILO), or Last-In-First-Out (LIFO), strategy in search.
 
-#### Graphical Representation
-
 Their relation to linked lists means that their graphical representation can be the same, but different in the orider of the items.
 
 For instance, stack `[3, 1, 4, 2, 5]`
 
 ![Image 2]
 
-#### Working with Stack
-
-- Constructed
-- Push
-- Get Top
-- Pop
-- Check Empty
-
 ### Queues
 
 A **queue** is a data structure used to model a First-In-First-Out (FIFO) strategy. Conceptually, we add to the end of a queue and take away elements from its front
-
-### Graphical Representation
 
 A queue can be graphically represented in a similar way to a list or stack, but with an additional two-cell in which the first element points to the front of the list of all the elements in the queue, and the second element points to the last element of the list.
 
