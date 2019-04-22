@@ -9,6 +9,7 @@
   - [Recursion](#recursion)
   - [Stacks](#stacks)
   - [Queues](#queues)
+  - [Doubly Linked Lists](#doubly-linked-lists)
 - [Searching](#searching)
 - [Efficiency and Complexity](#efficiency-and-complexity)
 - [Trees](#trees)
@@ -81,6 +82,16 @@ For instance, queue `[3, 1, 4, 2]`
 
 ![Image 3]
 
+### Doubly Linked Lists
+
+A **doubly linked** list might be useful when working with something like a list of web pages, which has each page containing a picture, a link to the previous page, and a link to the next page.
+
+Non-empty doubly linked lists can be represented by three-cells, where the first cell contains a pointer to another three-cell or to the empty list, the second cell contains a pointer to the list element and the third cell contains a pointer to another three-cell or the empty list
+
+For instance, list `[3, 1, 4, 2, 5]`
+
+![Image 4]
+
 ## Searching
 
 ## Efficiency and Complexity
@@ -100,3 +111,4 @@ For instance, queue `[3, 1, 4, 2]`
 [Image 1]: ../img/ds.linked-lists.png
 [Image 2]: ../img/ds.stacks.png
 [Image 3]: ../img/ds.queues.png
+[Image 4]: ../img/ds.doubly-lists.png
