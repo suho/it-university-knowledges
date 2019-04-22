@@ -18,6 +18,7 @@
   - [Big-O notation for Complexity Class](#big-o-notation-for-complexity-class)
 - [Trees](#trees)
   - [General Specification of Trees](#general-specification-of-trees)
+  - [Quad-Trees](#quad-trees)
 - [Binary Search Trees](#binary-search-trees)
 - [Priority Queues and Heap Trees](#priority-queues-and-heap-trees)
 - [Sorting](#sorting)
@@ -153,6 +154,9 @@ else return -1;
 <p align="center">
     <img src="../img/ds.trees.png" width="70%" />
 </p>
+
+### Quad-Trees
+
 
 ## Binary Search Trees
 
