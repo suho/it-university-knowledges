@@ -11,6 +11,8 @@
   - [Queues](#queues)
   - [Doubly Linked Lists](#doubly-linked-lists)
 - [Searching](#searching)
+  - [Linear Search](#linear-search)
+  - [Binary Search](#binary-search)
 - [Efficiency and Complexity](#efficiency-and-complexity)
 - [Trees](#trees)
 - [Binary Search Trees](#binary-search-trees)
@@ -93,6 +95,17 @@ For instance, list `[3, 1, 4, 2, 5]`
 ![Image 4]
 
 ## Searching
+
+### Linear Search
+
+```java
+for (i=0; i<n; i++) {
+    if (a[i] == x) return i;
+}
+return -1;
+```
+
+### Binary Search
 
 ## Efficiency and Complexity
 
