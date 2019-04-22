@@ -19,6 +19,7 @@
 - [Trees](#trees)
   - [General Specification of Trees](#general-specification-of-trees)
   - [Quad-Trees](#quad-trees)
+  - [Binary Trees](#binary-trees)
 - [Binary Search Trees](#binary-search-trees)
 - [Priority Queues and Heap Trees](#priority-queues-and-heap-trees)
 - [Sorting](#sorting)
@@ -157,6 +158,15 @@ else return -1;
 
 ### Quad-Trees
 
+<p align="center">
+    <img src="../img/ds.quad-trees.png" width="70%" />
+</p>
+
+### Binary Trees
+
+<p align="center">
+    <img src="../img/ds.binary-trees.png" width="70%" />
+</p>
 
 ## Binary Search Trees
 
@@ -173,3 +183,4 @@ else return -1;
 [Image 3]: ../img/ds.queues.png
 [Image 4]: ../img/ds.doubly-lists.png
 [Image 5]: ../img/ds.trees.png
+[Image 6]: ../img/ds.binary-trees.png
