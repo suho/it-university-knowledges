@@ -153,19 +153,19 @@ else return -1;
 ### General Specification of Trees
 
 <p align="center">
-    <img src="../img/ds.trees.png" width="70%" />
+    <img src="../img/ds.trees.png" width="50%" />
 </p>
 
 ### Quad-Trees
 
 <p align="center">
-    <img src="../img/ds.quad-trees.png" width="70%" />
+    <img src="../img/ds.quad-trees.png" width="50%" />
 </p>
 
 ### Binary Trees
 
 <p align="center">
-    <img src="../img/ds.binary-trees.png" width="70%" />
+    <img src="../img/ds.binary-trees.png" width="50%" />
 </p>
 
 ## Binary Search Trees
