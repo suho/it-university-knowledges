@@ -20,10 +20,7 @@
   - [General Specification of Trees](#general-specification-of-trees)
   - [Quad-Trees](#quad-trees)
   - [Binary Trees](#binary-trees)
-- [Binary Search Trees](#binary-search-trees)
-- [Priority Queues and Heap Trees](#priority-queues-and-heap-trees)
 - [Sorting](#sorting)
-- [Hash Tables](#hash-tables)
 - [Graphs](#graphs)
 
 ## Arrays, Iteration, Invariants
@@ -168,15 +165,19 @@ else return -1;
     <img src="../img/ds.binary-trees.png" width="50%" />
 </p>
 
-## Binary Search Trees
-
-## Priority Queues and Heap Trees
-
 ## Sorting
 
-## Hash Tables
+- Bubble Sort
+- Selection Sort
+- Inserting Sort
+- Treesort
+- Heapsort
+- Quicksort
+- Mergesort
 
 ## Graphs
+
+- Dijkstra's Algorithm
 
 [Image 1]: ../img/ds.linked-lists.png
 [Image 2]: ../img/ds.stacks.png
