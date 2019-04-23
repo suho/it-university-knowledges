@@ -65,8 +65,8 @@ This repo will collect base concepts knowledges I learned from my university.
 [General Informatics]: #
 [Calculus 2]: #
 [Linear Algebra]: #
-[Probability and Statistics]: #
-[Calculation Methodologies]: #
+[Probability and Statistics]: ./doc/sem3.probability-and-statistics.md
+[Calculation Methodologies]: ./doc/sem4.calculation-methodology.md
 [Discrete Mathematics]: ./doc/sem4.discrete-mathematics.md
 [Artificial Intelligence]: ./doc/sem5.artificial-intelligence.md
 [Data Structure]: ./doc/sem5.data-structure.md
