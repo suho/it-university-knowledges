@@ -61,10 +61,10 @@ This repo will collect base concepts knowledges I learned from my university.
 - [IT Project Management][IT Project Management]
 - [Service Oriented Technology][Service Oriented Technology]
 
-[Calculus 1]: #
-[General Informatics]: #
-[Calculus 2]: #
-[Linear Algebra]: #
+[Calculus 1]: ./doc/sem1.calculus1.md
+[General Informatics]: ./doc/sem1.general-informatics.md
+[Calculus 2]: ./doc/sem2.calculus2.md
+[Linear Algebra]: ./doc/sem2.linear-algebra.md
 [Probability and Statistics]: ./doc/sem3.probability-and-statistics.md
 [Calculation Methodologies]: ./doc/sem4.calculation-methodology.md
 [Discrete Mathematics]: ./doc/sem4.discrete-mathematics.md
