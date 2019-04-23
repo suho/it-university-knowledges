@@ -67,8 +67,8 @@ This repo will collect base concepts knowledges I learned from my university.
 [Linear Algebra]: #
 [Probability and Statistics]: #
 [Calculation Methodologies]: #
-[Discrete Mathematics]: #
-[Artificial Intelligence]: #
+[Discrete Mathematics]: ./doc/sem4.discrete-mathematics.md
+[Artificial Intelligence]: ./doc/sem5.artificial-intelligence.md
 [Data Structure]: ./doc/sem5.data-structure.md
 [Computer Networks]: ./doc/sem5.computer-networks.md
 [Formal Languages]: ./doc/sem5.formal-languages.md
