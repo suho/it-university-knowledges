@@ -26,6 +26,6 @@ This section is an introduction to the basic concepts of probability theory
 
 ## Regression Analysis
 
-[See more](seeing-theory)
+[See more][seeing-theory]
 
 [seeing-theory]: https://seeing-theory.brown.edu/
