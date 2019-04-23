@@ -11,7 +11,7 @@
 - [Logical Reasoning](#logical-reasoning)
 - [State Space Search](#state-space-search)
 - [Heuristic Search](#heuristic-search)
-- [Production Rule System](#production-rule-system)
+- [Production System](#production-system)
 - [Expert System](#expert-system)
 - [Knowledge Representation](#knowledge-representation)
 - [Genetic Algorithm](#genetic-algorithm)
@@ -118,7 +118,7 @@ Want to make an computer understand human through natural language
 
 ## Heuristic Search
 
-## Production Rule System
+## Production System
 
 ## Expert System
 
