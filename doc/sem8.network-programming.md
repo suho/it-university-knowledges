@@ -99,198 +99,45 @@ To work, the application needs an operating environment and the most important e
     <img src="../img/np.osi.model.png" width="50%" />
 </p>
 
-#### Physical Layer
+#### Application
 
-Concerned with the transmission and reception of the unstructured raw bit stream over the physical medium.
+Protocol data unit: Data.
+High-level APIs, including resource sharing, remote file access.
 
-<details><summary>See more</summary>
-<p>
+#### Presentation
 
-- **Application**: 
-  - **Physical structure** Cables, Hubs, ect.
+Protocol data unit: Data.
 
-- **Example**:
-  - Data Encoding
-  - Physical medium attachment
-  - Tranmission technique
-  - Baseband or Broadband
-  - Physical medium transmission Bits & Volts
+Translation of data between a networking service and an application; including character encoding, data compression and encryption/decryption.
 
-- **Central Device**:
-  - Hub
+#### Session
 
-- **Protocols**: 
-  - 100BASE-T
-  - 1000BASE-T
-  - 802.11
+Protocol data unit: Data.
 
-</p>
-</details>
+Managing communication sessions, i.e. continuous exchange of information in the form of multiple back-and-forth transmissions between two nodes
 
-#### Data Link Layer
+#### Transport	
 
-Provides error-free transfer of data frames from one node to another over the Physical layer
+Protocol data unit: Segment, Datagram
 
-<details><summary>See more</summary>
-<p>
+Reliable transmission of data segments between points on a network, including segmentation, acknowledgement and multiplexing.
 
-- **Application**: 
-  - **Frames** ("envelopes", contains MAC address)<br>[NIC card ---- Switch ---- NIC card] (end to end)
+#### Network
 
-- **Example**:
-  - Establishes & terminates the logical link between nodes
-  - Frame traffic control
-  - Frame squencing
-  - Frame acknowledgment
-  - Frame delimiting
-  - Frame error checking
-  - Media access control
+Protocol data unit: Packet.
 
-- **Central Device**:
-  - Switch
-  - Bridge
-  - WAP
+Structuring and managing a multi-node network, including addressing, routing and traffic control.
 
-- **Protocols**: 
-  - PPP/SLIP
-  - Ethernet
-  - Token Ring
-  - ISDN
+#### Data link
 
-</p>
-</details>
+Protocol data unit: Frame.
 
-#### Network Layer
+Reliable transmission of data frames between two nodes connected by a physical layer
 
-Controls the operations of the subnet, deciding which physical path the data takes.
+#### Physical
 
-<details><summary>See more</summary>
-<p>
-
-- **Application**: 
-  - **Packets** ("letter", contains IP address)
-
-- **Example**:
-  - Routing
-  - Subnet traffic control
-  - Frame fragmentation
-  - Logical-physical addess mapping
-  - Subnet usage accounting
-
-- **Central Device**:
-  - Routers
-
-- **Protocols**: 
-  - IP/IPX/ICMP
-
-</p>
-</details>
-
-#### Transport Layer
-
-Ensures that messages are delivered error-free, in sequence, and with no looses or duplications.
-
-<details><summary>See more</summary>
-<p>
-
-- **Application**: 
-  - **TCP** Host to Host, Flow Control
-
-- **Example**:
-  - Message segmentation
-  - Message acknowledgement
-  - Message traffic control
-  - Session multiplexing
-
-- **Central Device**: _None_
-
-- **Protocols**: 
-  - TCP/SPX/UDP
-
-</p>
-</details>
-
-#### Session Layer
-
-Allow session astablishment between processes running on different stations
-
-<details><summary>See more</summary>
-<p>
-
-- **Application**: 
-  - **Synch & Send to Ports** (logical ports)
-
-- **Example**:
-  - Session establishment
-  - Maintenance and termination
-  - Session Support
-  - Perform Security
-  - Name Recognition
-  - Logging
-
-- **Central Device**:
-  - Logical Ports
-
-- **Protocols**: 
-  - RPC/SQL/NFS/NetBIOS
-  - SSH
-
-
-</p>
-</details>
-
-#### Presentation Layer
-
-Formats the data to be presented to the Application layer. It can be viewed as the "Translator" for the network
-
-<details><summary>See more</summary>
-<p>
-
-- **Application**: 
-  - **Syntax layer** encrypt and decrypt (if needed)
-
-- **Example**:
-  - Character code translation
-  - Data conversion
-  - Data compression
-  - Data encryption
-  - Character Set Translation
-
-- **Central Device**: _None_
-
-- **Protocols**: 
-  - JPEG/ASCII/EBDIC/TIFF/GIF/PICT
-  - SMB, NCP
-
-</p>
-</details>
-
-#### Application Layer
-
-Serves as the window for users and application processes to access the network services
-
-<details><summary>See more</summary>
-<p>
-
-- **Application**: 
-  - **End User Layer** Program that opens what was sent or creates what is to be sent
-
-- **Example**:
-  - Resource sharing
-  - Remote file access
-  - Remote printer access
-  - Directory services
-  - Network management
-
-- **Central Device**: 
-  - User Application
-
-- **Protocols**: 
-  - SMTP
-  - HTTP, FTP, NSF, Telnet, SSH, ECHO,...
-
-</p>
-</details>
+Protocol data unit: Symbol.
+Transmission and reception of raw bit streams over a physical medium.
 
 ### TCP/IP Model
 
