@@ -54,7 +54,7 @@ Core Java helps to implement the above concepts when developing software.
 
 ## What is Advanced Java
 
-Advanced Java is the level ahead of Core Java, and covers more advanced concepts such as web technologies, and database accessing. Java Enterprise Edition (J2EE) is categorized as Advanced Java.Difference Between Core Java and Advanced Java
+Advanced Java is the level ahead of Core Java, and covers more advanced concepts such as web technologies, and database accessing. Java Enterprise Edition (J2EE) is categorized as Advanced Java.
 
 Advanced Java covers a number of topics. JDBC stands for Java Database Connectivity. It is a standard Java API to build independent connectivity between the Java language based application and databases such as MySQL, MSSQL, and, Oracle. Additionally, Servlets and JSP allow developing dynamic web applications. EJB provide distributed and highly transactional features to build enterprise applications. Furthermore, Java web services help to build SOAP and RESTful web services. They provide a common platform for the applications to communicate with each other.
 
