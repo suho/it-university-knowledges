@@ -102,6 +102,7 @@ To work, the application needs an operating environment and the most important e
 #### Application
 
 Protocol data unit: Data.
+
 High-level APIs, including resource sharing, remote file access.
 
 #### Presentation
