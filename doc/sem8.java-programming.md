@@ -2,17 +2,15 @@
 
 - [Java](#java)
 - [Properties](#properties)
-- [Concepts](#concepts)
-  - [Inheritance](#inheritance)
-  - [Polymorphism](#polymorphism)
-  - [Abstraction](#abstraction)
-  - [Encapsulation](#encapsulation)
-  - [Class](#class)
-  - [Object](#object)
-  - [Methods](#methods)
-  - [Instance Variables](#instance-variables)
-  - [History](#history)
-  - [Package](#package)
+- [What is Core Java](#what-is-core-java)
+- [What is Advanced Java](#what-is-advanced-java)
+- [Relationship Between Core Java and Advanced Java](#relationship-between-core-java-and-advanced-java)
+- [Difference Between Core Java and Advanced Java](#difference-between-core-java-and-advanced-java)
+  - [Definition](#definition)
+  - [Java Version](#java-version)
+  - [Topics or Areas](#topics-or-areas)
+  - [Architecture](#architecture)
+  - [Applications](#applications)
 
 ## Java
 
@@ -36,76 +34,49 @@ Java is guaranteed to be **Write Once**, **Run Anywhere**
 
 **Dynamic** - Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment.
 
-## Concepts
+<p align="center">
+    <img src="../img/java.jpg" />
+</p>
 
-Java is an Object-Oriented Language. As a language that has the Object-Oriented feature, Java supports the following fundamental concepts:
-- **Polymorphism**
-- **Inheritance** (+ Overriding)
-- **Encapsulation**
-- **Abstraction**
-- Classes
-- Objects
-- Instance
-- Method
-- Interface
-- Package
+## What is Core Java
 
-### Inheritance
+Core Java mainly focuses on building general applications. Java Standard Edition (J2SE) is categorized as Core Java. Core Java mainly covers object-oriented programming concepts. The main OOP pillars are encapsulation, inheritance, abstraction and polymorphism. They are as follows.
 
-Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
+Encapsulation – Combines data and methods to a single unit
+ 
+Inheritance – Allows using an already created class without writing the code from the beginning, improving the code reusability
 
-The class which inherits the properties of other is known as subclass and the class whose properties are inherited is known as superclass.
+Polymorphism – Allows writing code in a way that an object can behave in multiple ways
 
-In object-oriented terms, overriding means to override the functionality of an existing method.
+Abstraction – Allows writing the code in a way that hides the implementation details to reduce complexity.
 
-### Polymorphism
+Core Java helps to implement the above concepts when developing software.
 
-Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
-It is important to know that the only possible way to access an object is through a reference variable. A reference variable can be of only one type. Once declared, the type of a reference variable cannot be changed.
+## What is Advanced Java
 
-```java
-public interface Vegetarian {}
-public class Animal {}
-public class Deer extends Animal implements Vegetarian {}
+Advanced Java is the level ahead of Core Java, and covers more advanced concepts such as web technologies, and database accessing. Java Enterprise Edition (J2EE) is categorized as Advanced Java.Difference Between Core Java and Advanced Java
 
-Deer d = new Deer();
-Animal a = d;
-Vegetarian v = d;
-```
+Advanced Java covers a number of topics. JDBC stands for Java Database Connectivity. It is a standard Java API to build independent connectivity between the Java language based application and databases such as MySQL, MSSQL, and, Oracle. Additionally, Servlets and JSP allow developing dynamic web applications. EJB provide distributed and highly transactional features to build enterprise applications. Furthermore, Java web services help to build SOAP and RESTful web services. They provide a common platform for the applications to communicate with each other.
 
-### Abstraction
+## Relationship Between Core Java and Advanced Java
 
-In Object-Oriented Programming, abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it.
-In Java, abstraction is achieved using **abstract classes** and **interfaces**.
-A class which contains the **abstract** keyword in its declaration is known as abstract class.
+Advanced Java depends on Core Java. As a result, it is not possible to develop applications using Advanced Java without Core Java knowledge.
 
-### Encapsulation
+## Difference Between Core Java and Advanced Java
 
-Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism and abstraction.
-Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as **data hiding**.
+### Definition
+Core Java is the category of Java that covers the fundamental concepts of Java programming language to develop general applications. Advanced Java is the category of Java that covers the advanced concepts to build enterprise applications using Java programming language. Hence, this explains the main difference between Core Java and Advanced Java.
 
-### Class
+### Java Version
+Java Standard Edition (J2SE) comes under Core Java while Java Enterprise Edition (J2EE) omes under Advanced Java.
 
-A class can be defined as a template/blueprint that describes the behavior/state that the object of its type supports.
+### Topics or Areas
+OOP, data types, operators, exception handling, threading, swing, and collections are some topics in Core Java. In contrast, database connectivity, web services, Servlets, JSP, EJB, etc. are some topics in Advanced Java.
 
-### Object
+### Architecture
+Furthermore, core Java uses single tier architecture. In contrast, Advanced Java uses two-tier architecture. e.g.- client, server architecture. This is a major difference between Core Java and Advanced Java.
 
-Objects have states and behaviors. An object is an instance of a class
+### Applications
+Another ifference between Core Java and Advanced Java is that Core Java helps to build general applications while advanced Java helps to build enterprise level applications. e.g., web applications, etc.
 
-### Methods
-
-A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
-
-### Instance Variables
-
-Each object has its unique set of instance variables. An object’s state is created by the vales assigned to these instance variables.
-
-### History
-
-An interfaces is a reference type in Java. It is similar to class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
-
-### Package
-
-Pages are used in Java in order to prevent naming conflicts, to control access, to make searching/locating and usage of classes, interfaces, enumerations and annotations easier, etc.
-
-A Package can be defined as a grouping of related types (classes, interfaces, enumerations and annotations) providing access protection and namespace management.
+[Image]: ../img/java.jpg
