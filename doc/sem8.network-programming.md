@@ -154,11 +154,11 @@ The application layer is the scope within which applications, or processes, **cr
 
 The transport layer performs host-to-host communications on either the same or different hosts and on either the local network or remote networks separated by routers. It provides a channel for the communication needs of applications
 
-### Internet Layer
+#### Internet Layer
 
 The internet layer exchanges datagrams across network boundaries. This layer defines the addressing and routing structures used for the TCP/IP protocol suite.
 
-### Network Interface Layer / Link Layer
+#### Network Interface Layer / Link Layer
 
 This layer includes the protocols used to describe the local network topology and the interfaces needed to effect transmission of Internet layer datagrams to next-neighbor hosts.
 
