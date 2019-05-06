@@ -148,21 +148,25 @@ Transmission and reception of raw bit streams over a physical medium.
 
 #### Application Layer
 
-The **application layer** is the scope within which applications, or processes, create user data and communicate this data to other applications on another or the same host.
+The application layer provides applications with standardized data exchange.
+
+Protocols: HTTP, FTP, SMTP, SNMP...
 
 #### Transport Layer
 
-The **transport layer** performs host-to-host commnunications on either the same or different hosts and on either the local network or remote networks separated by routers.
+The transport layer is responsible for maintaining end-to-end communications across the network.
 
-It provides a channel for the communitation needs of applications. UDP is the basic transport layer protocol, providing an unreliable datagram service.
+Protocols: TCP, UDP
 
 ### Internet Layer
 
-The **internet layer** exchanges datagrams across network boundaries. It provides a uniform networking interface that hides the actual topology of the underlying network connections.
+The network layer, also called the internet layer, deals with packets and connects independent networks to transport the packets across network boundaries.
+
+Protocols: IP
 
 ### Network Interface Layer / Link Layer
 
-The layer defines the networking methods within the scope of the local netowrk link on which hosts communicate without intervening routers. This layer includes the protocols used to describe the local network topology and the interfaces needed to affect transmission of Internet layer datagrams to next-neighbor hosts.
+The physical layer consists of protocols that operate only on a link -- the network component that interconnects nodes or hosts in the network.
 
 ## Server/Client Model
 
