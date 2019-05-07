@@ -26,9 +26,9 @@
 
 ## What is Database?
 
-A database is a separate application that stores a collection of data. Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
+A database is an organized collection of data.
 
-Relational database management systems (RDBMS) - is called relational database because all the data is stored into different tables and relations are established using primary keys or other keys known as Foreign Keys.
+Relational database management systems (RDBMS) - is called relational database because all the data is stored into different tables and relations are established using primary keys or other keys known as Foreign Keys. DBMS has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
 
 ## RDBMS Terminology
 
