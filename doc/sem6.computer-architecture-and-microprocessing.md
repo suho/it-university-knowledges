@@ -81,8 +81,6 @@ System Bus: Connects the major components of a computer system, combining the fu
 
 - **Register File**, an array of processor registers in a CPU
 
-- **System Bus**, Connects the major components of a computer system, combining the functions of a **data bus** to carry information, an **address bus** to determine where it should be sent, and a **control bus** to determine its operation.
-
 ### Memory
 
 Functions: Stores programs and data.
