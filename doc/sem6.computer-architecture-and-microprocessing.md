@@ -59,7 +59,9 @@ Computer Architecture consists of three main categories:
 
 Central Processing Unit: The CPU sends signals to control the other parts of the computer, almost like how brain controls a body.
 
-Main Memory (Random Access Memory - RAM): Store operating system software, software applications and other information.
+Main Memory: Store operating system software, software applications and other information.
+- RAM is a temporary memory. Stores data and program instructions while the computer is running. The data stored in RAM is lost forever when power is turn off.
+- ROM is a permanent memory. Stores start up instructions when the computer is turn on. The instructions are set by manufacturer and can not be changed by user. The last instruction in ROM directs computer to load the OS.
 
 Input/Output: Interact information between computer and another devices.
 
